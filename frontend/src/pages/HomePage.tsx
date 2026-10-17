@@ -25,7 +25,7 @@ export default function HomePage() {
           <header className="mb-6">
             <p className="text-sm font-medium text-accent">DP-700 Study</p>
             <h1 className="mt-1 text-3xl font-bold leading-tight xl:text-4xl">
-              Mobile-first prep for the Fabric Data Engineer exam.
+              Fabric Data Engineer Exam Prep
             </h1>
             <p className="mt-3 text-fg-muted">
               Quizzes and code-review drills across all three exam domains — with real T-SQL,

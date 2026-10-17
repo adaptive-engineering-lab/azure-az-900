@@ -75,7 +75,7 @@ function renderAt(path: string) {
 describe('Routing (FR-002, FR-003, FR-015)', () => {
   it('renders the home page at /', () => {
     renderAt(ROUTES.home);
-    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(/Mobile-first prep/i);
+    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(/Fabric Data Engineer Exam Prep/i);
   });
 
   it('renders the learn index at /learn', () => {
