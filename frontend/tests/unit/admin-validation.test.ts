@@ -6,7 +6,7 @@ describe('Admin item validation (feature 013, FR-007)', () => {
     const result = validateItem('mcq', {
       id: '00000000-0000-4000-8000-000000000001',
       type: 'mcq',
-      domain: 'ingest-transform',
+      domain: 'azure-architecture',
       topic: 'blob',
       difficulty: 1,
       source: 'bank',
@@ -24,7 +24,7 @@ describe('Admin item validation (feature 013, FR-007)', () => {
     const result = validateItem('mcq', {
       id: '00000000-0000-4000-8000-000000000002',
       type: 'mcq',
-      domain: 'implement-manage',
+      domain: 'cloud-concepts',
       topic: 'rbac',
       difficulty: 2,
       source: 'bank',
@@ -66,7 +66,7 @@ describe('Admin item validation (feature 013, FR-007)', () => {
     const result = validateItem('mcq', {
       id: '00000000-0000-4000-8000-000000000004',
       type: 'mcq',
-      domain: 'ingest-transform',
+      domain: 'azure-architecture',
       topic: 't',
       difficulty: 1,
       source: 'bank',

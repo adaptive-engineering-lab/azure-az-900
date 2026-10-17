@@ -6,7 +6,7 @@ function mkMcq(id: string, difficulty: 1 | 2 | 3 = 1): McqQuestion {
   return {
     id,
     type: 'mcq',
-    domain: 'ingest-transform',
+    domain: 'azure-architecture',
     topic: 'Use Apache Spark in Microsoft Fabric',
     difficulty,
     content: {

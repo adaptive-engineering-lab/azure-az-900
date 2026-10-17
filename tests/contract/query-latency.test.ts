@@ -12,9 +12,9 @@ import { anonClient } from '../../tools/test-helpers/clients.js';
  */
 
 const DOMAINS = [
-  'implement-manage',
-  'ingest-transform',
-  'monitor-optimize',
+  'cloud-concepts',
+  'azure-architecture',
+  'azure-management',
 ] as const;
 
 const SAMPLES = 20;

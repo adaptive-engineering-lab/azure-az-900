@@ -1,24 +1,24 @@
 export type Domain =
-  | 'implement-manage'
-  | 'ingest-transform'
-  | 'monitor-optimize';
+  | 'cloud-concepts'
+  | 'azure-architecture'
+  | 'azure-management';
 
 export const DOMAINS: Domain[] = [
-  'implement-manage',
-  'ingest-transform',
-  'monitor-optimize',
+  'cloud-concepts',
+  'azure-architecture',
+  'azure-management',
 ];
 
 /**
- * The official domain names, verbatim from the DP-700 study guide
- * (skills measured as of 2026-07-21). Kept in Microsoft's sentence case so
+ * The official domain names, verbatim from the AZ-900 study guide
+ * (skills measured as of 2026-07-20). Kept in Microsoft's sentence case so
  * this file can be diffed against the source when the exam is updated.
  * They are long by design — components wrap rather than abbreviate.
  */
 export const DOMAIN_LABELS: Record<Domain, string> = {
-  'implement-manage': 'Implement and manage an analytics solution',
-  'ingest-transform': 'Ingest and transform data',
-  'monitor-optimize': 'Monitor and optimize an analytics solution',
+  'cloud-concepts': 'Describe cloud concepts',
+  'azure-architecture': 'Describe Azure architecture and services',
+  'azure-management': 'Describe Azure management and governance',
 };
 
 export type OptionLetter = 'A' | 'B' | 'C' | 'D';
@@ -71,12 +71,9 @@ export interface BaseQuestion {
  * path there, add it here too.
  */
 export const LEARNING_PATHS: Record<string, string> = {
-  lp1: 'Get started with Microsoft Fabric',
-  lp2: 'Implement a Lakehouse with Microsoft Fabric',
-  lp3: 'Ingest data with Microsoft Fabric',
-  lp4: 'Implement Real-Time Intelligence with Microsoft Fabric',
-  lp5: 'Implement a data warehouse with Microsoft Fabric',
-  lp6: 'Manage a Microsoft Fabric environment',
+  lp1: 'Describe cloud concepts',
+  lp2: 'Describe Azure architecture and services',
+  lp3: 'Describe Azure management and governance',
 };
 
 /**

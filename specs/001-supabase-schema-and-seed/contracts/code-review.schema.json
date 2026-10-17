@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://dp700game.local/contracts/code-review.schema.json",
+  "$id": "https://az900game.local/contracts/code-review.schema.json",
   "title": "Code Review Item",
   "type": "object",
   "required": [
@@ -57,9 +57,9 @@
   "$defs": {
     "domain": {
       "enum": [
-        "implement-manage",
-        "ingest-transform",
-        "monitor-optimize"
+        "cloud-concepts",
+        "azure-architecture",
+        "azure-management"
       ]
     },
     "source": { "enum": ["bank", "ai-generated"] }

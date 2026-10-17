@@ -9,9 +9,9 @@ describe('Dashboard aggregations (feature 007)', () => {
   it('returns all 5 domains even when empty', () => {
     const stats = computeDomainStats({}, {});
     expect(stats.map((s) => s.domain)).toEqual([
-      'implement-manage',
-      'ingest-transform',
-      'monitor-optimize',
+      'cloud-concepts',
+      'azure-architecture',
+      'azure-management',
     ]);
     expect(stats.every((s) => s.hasEnoughData === false)).toBe(true);
   });
@@ -21,17 +21,17 @@ describe('Dashboard aggregations (feature 007)', () => {
       {
         q1: { questionId: 'q1', timesSeen: 4, timesCorrect: 2, lastRating: 'correct', nextReview: null, updatedAt: '' },
       },
-      { q1: 'ingest-transform' as Domain },
+      { q1: 'azure-architecture' as Domain },
     );
-    expect(stats.find((s) => s.domain === 'ingest-transform')!.hasEnoughData).toBe(false);
+    expect(stats.find((s) => s.domain === 'azure-architecture')!.hasEnoughData).toBe(false);
 
     const stats2 = computeDomainStats(
       {
         q1: { questionId: 'q1', timesSeen: 5, timesCorrect: 2, lastRating: 'correct', nextReview: null, updatedAt: '' },
       },
-      { q1: 'ingest-transform' as Domain },
+      { q1: 'azure-architecture' as Domain },
     );
-    expect(stats2.find((s) => s.domain === 'ingest-transform')!.hasEnoughData).toBe(true);
+    expect(stats2.find((s) => s.domain === 'azure-architecture')!.hasEnoughData).toBe(true);
   });
 
   it('flags weak only when hasEnoughData AND pct < 60', () => {
@@ -39,9 +39,9 @@ describe('Dashboard aggregations (feature 007)', () => {
       {
         q1: { questionId: 'q1', timesSeen: 10, timesCorrect: 5, lastRating: 'almost', nextReview: null, updatedAt: '' },
       },
-      { q1: 'monitor-optimize' as Domain },
+      { q1: 'azure-management' as Domain },
     );
-    const compute = stats.find((s) => s.domain === 'monitor-optimize')!;
+    const compute = stats.find((s) => s.domain === 'azure-management')!;
     expect(compute.pct).toBe(50);
     expect(compute.weak).toBe(true);
   });
@@ -51,9 +51,9 @@ describe('Dashboard aggregations (feature 007)', () => {
       {
         q1: { questionId: 'q1', timesSeen: 10, timesCorrect: 6, lastRating: 'correct', nextReview: null, updatedAt: '' },
       },
-      { q1: 'implement-manage' as Domain },
+      { q1: 'cloud-concepts' as Domain },
     );
-    expect(stats.find((s) => s.domain === 'implement-manage')!.weak).toBe(false);
+    expect(stats.find((s) => s.domain === 'cloud-concepts')!.weak).toBe(false);
   });
 
   it('calendar has 12*7 = 84 cells', () => {

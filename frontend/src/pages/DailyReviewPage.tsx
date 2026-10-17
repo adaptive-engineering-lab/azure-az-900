@@ -110,12 +110,6 @@ export default function DailyReviewPage() {
           >
             Take a quiz →
           </Link>
-          <Link
-            to={ROUTES.codeReview}
-            className="flex-1 rounded-md bg-bg px-4 py-3 text-center text-sm font-medium ring-1 ring-divider"
-          >
-            Try code review
-          </Link>
         </div>
       </section>
     );

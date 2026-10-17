@@ -22,15 +22,6 @@ const MODES: Mode[] = [
     countKey: 'mcq',
     accent: 'ring-sky-500/40 from-sky-500/15',
   },
-  {
-    to: ROUTES.codeReview,
-    title: 'Code Review',
-    emoji: '🔍',
-    description: 'Spot the bug or fill the blank in real Fabric snippets.',
-    details: 'Short PySpark / T-SQL / KQL snippets with four-option feedback. Mirrors the exam’s scenario questions.',
-    countKey: 'code-review',
-    accent: 'ring-emerald-500/40 from-emerald-500/15',
-  },
 ];
 
 export default function LearnIndexPage() {

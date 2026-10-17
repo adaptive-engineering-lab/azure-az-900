@@ -20,9 +20,9 @@ create table public.questions (
 
   constraint questions_domain_chk
     check (domain in (
-      'implement-manage',
-      'ingest-transform',
-      'monitor-optimize'
+      'cloud-concepts',
+      'azure-architecture',
+      'azure-management'
     )),
 
   constraint questions_source_chk

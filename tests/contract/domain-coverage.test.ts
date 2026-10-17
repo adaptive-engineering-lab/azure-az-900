@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeAll } from 'vitest';
 import { anonClient } from '../../tools/test-helpers/clients.js';
 
-const DOMAINS = ['implement-manage', 'ingest-transform', 'monitor-optimize'] as const;
+const DOMAINS = ['cloud-concepts', 'azure-architecture', 'azure-management'] as const;
 
 const TYPES = ['mcq', 'code-review'] as const;
 

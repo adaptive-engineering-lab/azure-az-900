@@ -88,7 +88,7 @@ Use these as starting points for `find-the-bug` and `fill-the-blank` items.
 Each maps to a real exam trap. Verify behaviour against current Fabric docs
 before shipping — the platform moves quickly.
 
-### PySpark and Delta (ingest-transform)
+### PySpark and Delta (azure-architecture)
 
 - `spark.read.format("csv").option("header", "true").load(...)` with no
   `inferSchema` or explicit schema — every column silently lands as string
@@ -101,7 +101,7 @@ before shipping — the platform moves quickly.
 - `createOrReplaceTempView` expected to survive into the next session —
   temp views are session-scoped
 
-### Spark performance (monitor-optimize)
+### Spark performance (azure-management)
 
 - `df.count()` called repeatedly inside a loop on an uncached dataframe —
   the whole lineage recomputes each time; needs `.cache()` and an action
@@ -113,7 +113,7 @@ before shipping — the platform moves quickly.
   `spark.databricks.delta.retentionDurationCheck.enabled` set — breaks
   time travel
 
-### KQL and Eventhouse (ingest-transform / monitor-optimize)
+### KQL and Eventhouse (azure-architecture / azure-management)
 
 - `join` written without a `kind`, expecting SQL semantics — KQL defaults to
   `innerunique`, which de-duplicates the left side. The classic trap.
@@ -125,7 +125,7 @@ before shipping — the platform moves quickly.
 - A materialized view defined over a non-deterministic aggregation — must
   use `arg_max`, `take_any`, or another supported aggregation
 
-### Warehouse T-SQL (implement-manage / monitor-optimize)
+### Warehouse T-SQL (cloud-concepts / azure-management)
 
 - `PRIMARY KEY` declared without `NONCLUSTERED NOT ENFORCED` — Fabric
   Warehouse only supports unenforced constraints, and duplicate rows will
@@ -138,7 +138,7 @@ before shipping — the platform moves quickly.
 - Dynamic data masking applied while the querying principal holds `UNMASK`,
   so the data comes back in the clear
 
-### Pipelines and Dataflows (implement-manage / monitor-optimize)
+### Pipelines and Dataflows (cloud-concepts / azure-management)
 
 - An activity dependency set to `Succeeded` where the intent was a
   failure-handling branch — that branch never runs; use `Failed`

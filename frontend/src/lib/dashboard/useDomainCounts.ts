@@ -13,9 +13,9 @@ export interface DomainCounts {
 }
 
 const EMPTY: Record<Domain, number> = {
-  'implement-manage': 0,
-  'ingest-transform': 0,
-  'monitor-optimize': 0,
+  'cloud-concepts': 0,
+  'azure-architecture': 0,
+  'azure-management': 0,
 };
 
 const EMPTY_TYPES: Record<ItemType, number> = {

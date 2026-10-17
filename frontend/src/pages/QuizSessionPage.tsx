@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { fetchQuestions } from '../lib/questions/fetch';
 import { MIXED_QUIZ_LENGTH, pickRandom } from '../lib/questions/pick';
-import type { McqQuestion, Domain, OptionLetter } from '../lib/questions/types';
+import { DOMAIN_LABELS, type McqQuestion, type Domain, type OptionLetter } from '../lib/questions/types';
 import { useAppStore } from '../lib/store';
 import { computeNextReview } from '../lib/spacing';
 import { ROUTES } from '../lib/routes';
@@ -211,7 +211,7 @@ function ResultsScreen({ answers, totalElapsed }: { answers: Answer[]; totalElap
         <ul className="mt-3 space-y-2">
           {byDomain.map((row) => (
             <li key={row.domain} className="flex items-center justify-between text-sm">
-              <span className="capitalize">{row.domain.replace('-', ' & ')}</span>
+              <span>{DOMAIN_LABELS[row.domain]}</span>
               <span className={row.weak ? 'text-warning' : 'text-fg-muted'}>
                 {row.correct}/{row.total} — {row.pct}%{row.weak ? ' · weak' : ''}
               </span>
@@ -219,24 +219,6 @@ function ResultsScreen({ answers, totalElapsed }: { answers: Answer[]; totalElap
           ))}
         </ul>
       </div>
-
-      {(() => {
-        const weakDomains = byDomain.filter((r) => r.weak).map((r) => r.domain);
-        if (weakDomains.length === 0) return null;
-        const href = `${ROUTES.codeReview}?domains=${weakDomains.join(',')}`;
-        return (
-          <Link
-            to={href}
-            className="mt-4 block rounded-lg bg-warning/10 p-4 ring-1 ring-warning"
-          >
-            <p className="text-sm font-semibold text-warning">Review missed →</p>
-            <p className="mt-1 text-xs text-fg-muted">
-              Open a code-review session pre-filtered to your weak {weakDomains.length === 1 ? 'domain' : 'domains'}:{' '}
-              {weakDomains.map((d) => d.replace(/-/g, ' ')).join(', ')}.
-            </p>
-          </Link>
-        );
-      })()}
 
       <div className="mt-6 flex gap-2">
         <Link to={ROUTES.quiz} className="flex-1 rounded-md bg-bg-elevated px-4 py-3 text-center font-medium">

@@ -37,7 +37,7 @@ function reset() {
 const itemA = {
   id: 'a',
   type: 'mcq' as const,
-  domain: 'ingest-transform',
+  domain: 'azure-architecture',
   topic: 't',
   difficulty: 1,
   source: 'bank' as const,
@@ -90,7 +90,7 @@ describe('useAdminQuestionsStore', () => {
     await useAdminQuestionsStore
       .getState()
       .create(
-        { type: 'mcq', domain: 'ingest-transform', topic: 't', difficulty: 1, source: 'bank', content: { question: 'q', options: { A: 'a', B: 'b' }, correct: 'A', explanation: 'e' } },
+        { type: 'mcq', domain: 'azure-architecture', topic: 't', difficulty: 1, source: 'bank', content: { question: 'q', options: { A: 'a', B: 'b' }, correct: 'A', explanation: 'e' } },
         'reviewer',
       );
 

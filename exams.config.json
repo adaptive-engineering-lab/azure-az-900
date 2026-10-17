@@ -1,63 +1,60 @@
 {
   "exams": [
     {
-      "code": "DP-700",
-      "title": "Implementing Data Engineering Solutions Using Microsoft Fabric",
-      "certificationTitle": "Microsoft Certified: Fabric Data Engineer Associate",
-      "level": "Intermediate",
+      "code": "AZ-900",
+      "title": "Microsoft Azure Fundamentals",
+      "certificationTitle": "Microsoft Certified: Azure Fundamentals",
+      "level": "Fundamentals",
       "passMark": 700,
-      "productionUrl": "dp-700.yourdomain.com",
-      "skillsMeasuredAsOf": "2026-07-21",
+      "productionUrl": "azure-az-900.vercel.app",
+      "skillsMeasuredAsOf": "2026-07-20",
 
       "domains": [
         {
-          "slug": "implement-manage",
-          "label": "Implement and manage an analytics solution",
-          "weight": "30-35",
+          "slug": "cloud-concepts",
+          "label": "Describe cloud concepts",
+          "weight": "25-30",
           "topics": [
-            "Spark Workspace Settings", "Domain Workspace Settings",
-            "OneLake Workspace Settings", "Apache Airflow Workspace Settings",
-            "Version Control", "Database Projects", "Deployment Pipelines",
-            "Workspace Access Controls", "Item Access Controls",
-            "Row-Level Security", "Column-Level Security", "Object-Level Security",
-            "Folder and File Access Controls", "Dynamic Data Masking",
-            "Sensitivity Labels", "Item Endorsement", "Fabric Audit Logs",
-            "OneLake Security", "Dataflow vs Pipeline vs Notebook",
-            "Schedules and Triggers", "Orchestration Patterns",
-            "Parameters and Dynamic Expressions"
+            "Cloud Computing", "Shared Responsibility Model",
+            "Public, Private, and Hybrid Cloud", "Cloud Model Use Cases",
+            "Consumption-Based Model", "Cloud Pricing Models", "Serverless",
+            "High Availability and Scalability", "Reliability and Predictability",
+            "Security and Governance", "Manageability",
+            "IaaS", "PaaS", "SaaS", "Service Type Use Cases"
           ]
         },
         {
-          "slug": "ingest-transform",
-          "label": "Ingest and transform data",
-          "weight": "30-35",
+          "slug": "azure-architecture",
+          "label": "Describe Azure architecture and services",
+          "weight": "35-40",
           "topics": [
-            "Full and Incremental Loads", "Dimensional Model Preparation",
-            "Streaming Loading Patterns", "Choosing a Data Store",
-            "Dataflows Gen2 vs Notebooks vs KQL vs T-SQL",
-            "OneLake Shortcuts", "Mirroring", "Pipeline Ingestion",
-            "PySpark Transforms", "SQL Transforms", "KQL Transforms",
-            "Denormalization", "Grouping and Aggregation",
-            "Duplicate Handling", "Missing Data", "Late-Arriving Data",
-            "Choosing a Streaming Engine",
-            "Native Tables vs OneLake Shortcuts", "Query Acceleration",
-            "Eventstreams", "Spark Structured Streaming", "Windowing Functions"
+            "Regions, Region Pairs, and Sovereign Regions", "Availability Zones",
+            "Datacenters", "Resources and Resource Groups", "Subscriptions",
+            "Management Groups", "Resource Hierarchy",
+            "Containers vs VMs vs Functions", "Virtual Machine Scale Sets",
+            "Availability Sets", "Azure Virtual Desktop", "VM Resources",
+            "Application Hosting Options", "Virtual Networks and Subnets",
+            "Peering", "Azure DNS", "VPN Gateway", "ExpressRoute",
+            "Public and Private Endpoints", "Storage Services", "Storage Tiers",
+            "Redundancy Options", "Storage Account Types",
+            "AzCopy, Storage Explorer, and File Sync",
+            "Azure Migrate and Data Box", "Microsoft Entra ID",
+            "Entra Domain Services", "SSO, MFA, and Passwordless",
+            "External Identities", "Conditional Access", "Azure RBAC",
+            "Zero Trust", "Defense in Depth", "Microsoft Defender for Cloud"
           ]
         },
         {
-          "slug": "monitor-optimize",
-          "label": "Monitor and optimize an analytics solution",
+          "slug": "azure-management",
+          "label": "Describe Azure management and governance",
           "weight": "30-35",
           "topics": [
-            "Monitor Data Ingestion", "Monitor Data Transformation",
-            "Monitor Semantic Model Refresh", "Alerts", "Monitoring Hub",
-            "Activator", "Pipeline Errors", "Dataflow Gen2 Errors",
-            "Notebook Errors", "Eventhouse Errors", "Eventstream Errors",
-            "T-SQL Errors", "OneLake Shortcut Errors",
-            "Lakehouse Table Optimization", "Pipeline Optimization",
-            "Data Warehouse Optimization",
-            "Eventstream and Eventhouse Optimization",
-            "Spark Performance", "Query Performance"
+            "Cost Factors", "Pricing Calculator", "Cost Management", "Tags",
+            "Microsoft Purview", "Azure Policy", "Resource Locks",
+            "Azure Portal", "Cloud Shell, CLI, and PowerShell", "Azure Arc",
+            "Infrastructure as Code", "Azure Resource Manager and ARM Templates",
+            "Azure Advisor", "Azure Service Health", "Azure Monitor",
+            "Log Analytics", "Azure Monitor Alerts", "Application Insights"
           ]
         }
       ],
@@ -65,69 +62,42 @@
       "learningPaths": [
         {
           "id": "lp1",
-          "title": "Get started with Microsoft Fabric",
-          "url": "https://learn.microsoft.com/en-us/training/paths/get-started-fabric/",
-          "moduleCount": 8,
-          "domains": ["implement-manage"]
+          "title": "Describe cloud concepts",
+          "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/",
+          "moduleCount": 3,
+          "domains": ["cloud-concepts"]
         },
         {
           "id": "lp2",
-          "title": "Implement a Lakehouse with Microsoft Fabric",
-          "url": "https://learn.microsoft.com/en-us/training/paths/implement-lakehouse-microsoft-fabric/",
-          "moduleCount": 7,
-          "domains": ["ingest-transform", "implement-manage"]
+          "title": "Describe Azure architecture and services",
+          "url": "https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services/",
+          "moduleCount": 5,
+          "domains": ["azure-architecture"]
         },
         {
           "id": "lp3",
-          "title": "Ingest data with Microsoft Fabric",
-          "url": "https://learn.microsoft.com/en-us/training/paths/ingest-data-with-microsoft-fabric/",
+          "title": "Describe Azure management and governance",
+          "url": "https://learn.microsoft.com/en-us/training/paths/describe-azure-management-governance/",
           "moduleCount": 4,
-          "domains": ["ingest-transform"]
-        },
-        {
-          "id": "lp4",
-          "title": "Implement Real-Time Intelligence with Microsoft Fabric",
-          "url": "https://learn.microsoft.com/en-us/training/paths/explore-real-time-analytics-microsoft-fabric/",
-          "moduleCount": 5,
-          "domains": ["ingest-transform", "monitor-optimize"]
-        },
-        {
-          "id": "lp5",
-          "title": "Implement a data warehouse with Microsoft Fabric",
-          "url": "https://learn.microsoft.com/en-us/training/paths/work-with-data-warehouses-using-microsoft-fabric/",
-          "moduleCount": 6,
-          "domains": ["ingest-transform", "implement-manage", "monitor-optimize"]
-        },
-        {
-          "id": "lp6",
-          "title": "Manage a Microsoft Fabric environment",
-          "url": "https://learn.microsoft.com/en-us/training/paths/manage-microsoft-fabric-environment/",
-          "moduleCount": 3,
-          "domains": ["monitor-optimize", "implement-manage"]
+          "domains": ["azure-management"]
         }
       ],
 
       "questionTargets": {
-        "total": 200,
+        "total": 150,
         "perDomain": {
-          "implement-manage": 67,
-          "ingest-transform": 67,
-          "monitor-optimize": 66
+          "cloud-concepts": 42,
+          "azure-architecture": 57,
+          "azure-management": 51
         },
         "byType": {
-          "mcq": 160,
-          "code-review": 40
+          "mcq": 150
         }
       },
 
       "gameModes": {
         "mcq": true,
-        "codeReview": true
-      },
-
-      "difficultyConfig": {
-        "lp3MaxDifficulty": 2,
-        "defaultMax": 3
+        "codeReview": false
       }
     }
   ]

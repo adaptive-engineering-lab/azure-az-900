@@ -17,7 +17,7 @@ const { data: mcq } = await client
   .from('questions')
   .select('topic, content')
   .eq('type', 'mcq')
-  .eq('domain', 'implement-manage')
+  .eq('domain', 'cloud-concepts')
   .limit(1)
   .single();
 console.log('\n=== Sample MCQ (identity-governance) ===');
@@ -36,10 +36,10 @@ const { data: cr } = await client
   .from('questions')
   .select('topic, content')
   .eq('type', 'code-review')
-  .eq('domain', 'ingest-transform')
+  .eq('domain', 'azure-architecture')
   .limit(1)
   .single();
-console.log('\n=== Sample code-review (ingest-transform) ===');
+console.log('\n=== Sample code-review (azure-architecture) ===');
 const c = cr!.content as {
   sub_mode: string;
   language: string;

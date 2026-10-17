@@ -4,11 +4,11 @@ import { anonClient } from '../../tools/test-helpers/clients.js';
 describe('Question queries — anonymous, filtered reads (T011 / FR-013, US1 acceptance)', () => {
   const client = anonClient();
 
-  it('Scenario 1: implement-manage returns items with complete metadata', async () => {
+  it('Scenario 1: cloud-concepts returns items with complete metadata', async () => {
     const { data, error } = await client
       .from('questions')
       .select('id, type, domain, topic, difficulty, source, content')
-      .eq('domain', 'implement-manage');
+      .eq('domain', 'cloud-concepts');
     expect(error).toBeNull();
     const rows = data ?? [];
     expect(rows.length).toBeGreaterThan(0);
@@ -59,7 +59,7 @@ describe('Question queries — anonymous, filtered reads (T011 / FR-013, US1 acc
     const { data } = await client.from('questions').select('domain, type');
     const rows = (data ?? []) as Array<{ domain: string; type: string }>;
     expect(rows.length).toBeGreaterThan(0);
-    const domains = ['implement-manage', 'ingest-transform', 'monitor-optimize'];
+    const domains = ['cloud-concepts', 'azure-architecture', 'azure-management'];
     const types = ['mcq', 'code-review'];
     for (const r of rows) {
       expect(domains, `unknown domain ${r.domain}`).toContain(r.domain);
@@ -71,13 +71,13 @@ describe('Question queries — anonymous, filtered reads (T011 / FR-013, US1 acc
     const { data, error } = await client
       .from('questions')
       .select('id, type, domain, difficulty')
-      .eq('domain', 'implement-manage')
+      .eq('domain', 'cloud-concepts')
       .eq('type', 'mcq')
       .eq('difficulty', 2);
     expect(error).toBeNull();
     expect((data ?? []).length).toBeGreaterThanOrEqual(1);
     for (const row of data ?? []) {
-      expect(row.domain).toBe('implement-manage');
+      expect(row.domain).toBe('cloud-concepts');
       expect(row.type).toBe('mcq');
       expect(row.difficulty).toBe(2);
     }

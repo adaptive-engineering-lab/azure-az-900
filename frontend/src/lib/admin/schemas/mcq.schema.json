@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://dp700game.local/contracts/mcq.schema.json",
+  "$id": "https://az900game.local/contracts/mcq.schema.json",
   "title": "Multiple Choice Question",
   "type": "object",
   "required": [
@@ -131,9 +131,9 @@
   "$defs": {
     "domain": {
       "enum": [
-        "implement-manage",
-        "ingest-transform",
-        "monitor-optimize"
+        "cloud-concepts",
+        "azure-architecture",
+        "azure-management"
       ]
     },
     "source": {

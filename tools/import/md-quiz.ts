@@ -3,9 +3,9 @@
  *
  * Source format (one file per Microsoft Learn module):
  *
- *   # DP-700 Practice Quiz — <module title>
+ *   # AZ-900 Practice Quiz — <module title>
  *   Source module: <learn.microsoft.com URL>
- *   DP-700 domains: **<Domain>** (hint) | **<Domain>** (hint)
+ *   AZ-900 domain: **<Domain>** — <hint>
  *
  *   ## Section A — Multiple Choice
  *   **1.** <question>
@@ -44,13 +44,13 @@ const REPO_ROOT = resolve(TOOLS_DIR, '..');
 const KNOWLEDGE_DIR = resolve(REPO_ROOT, 'bank', 'knowledge');
 const CONTENT_DIR = resolve(REPO_ROOT, 'supabase', 'seed', 'content');
 
-type Domain = 'implement-manage' | 'ingest-transform' | 'monitor-optimize';
+type Domain = 'cloud-concepts' | 'azure-architecture' | 'azure-management';
 
 /** Prose domain names as written in the quiz headers, longest-first. */
 const DOMAIN_PROSE: ReadonlyArray<[RegExp, Domain]> = [
-  [/implement and manage/i, 'implement-manage'],
-  [/ingest and transform/i, 'ingest-transform'],
-  [/monitor and optimi[sz]e/i, 'monitor-optimize'],
+  [/architecture and services/i, 'azure-architecture'],
+  [/management and governance/i, 'azure-management'],
+  [/cloud concepts/i, 'cloud-concepts'],
 ];
 
 /**
@@ -59,14 +59,10 @@ const DOMAIN_PROSE: ReadonlyArray<[RegExp, Domain]> = [
  * `topic` becomes the module title, so the bank is grouped the way a learner
  * actually studies — by module — rather than by exam-objective phrasing.
  *
- * A module usually belongs to several learning paths, so `paths` lists them
- * all (they become tags) and `primaryPath` is the one it is filed under in the
- * UI. The primary is the path the module was *studied* in — the one that
- * explains its `order:` number — so that grouping the picker by path
- * reproduces the sequence the quiz files were written in. Modules 1-4 were
- * worked through as lp3 and 5-11 as lp2, which is why the eventhouse module
- * is filed under lp3 rather than the more obvious lp4, and the introduction
- * under lp2 rather than lp1. Path ids match exams.config.json → learningPaths.
+ * `paths` lists every learning path the module belongs to (they become tags)
+ * and `primaryPath` is the one it is filed under in the UI. The AZ-900 paths
+ * don't share modules, so each module has exactly one. Path ids match
+ * exams.config.json → learningPaths.
  */
 interface ModuleInfo {
   title: string;
@@ -89,136 +85,81 @@ interface ModuleInfo {
 }
 
 const MODULES: Record<string, ModuleInfo> = {
-  'use-dataflow-gen-2-fabric': {
-    title: 'Ingest Data with Dataflows Gen2 in Microsoft Fabric',
-    paths: ['lp2', 'lp3'],
-    primaryPath: 'lp3',
-    idStem: '1-DP-700_Dataflows-Gen2_Quiz',
+  // lp1 — Describe cloud concepts
+  'describe-cloud-compute': {
+    title: 'Describe cloud computing',
+    paths: ['lp1'],
+    primaryPath: 'lp1',
+    idStem: '1-AZ-900_Cloud-Computing_Quiz',
   },
-  'use-data-factory-pipelines-fabric': {
-    title: 'Orchestrate processes and data movement with Microsoft Fabric',
-    paths: ['lp2', 'lp3'],
-    primaryPath: 'lp3',
-    idStem: '2-DP-700_Orchestrate-Pipelines_Quiz',
+  'describe-benefits-use-cloud-services': {
+    title: 'Describe the benefits of using cloud services',
+    paths: ['lp1'],
+    primaryPath: 'lp1',
+    idStem: '2-AZ-900_Cloud-Benefits_Quiz',
   },
-  'use-apache-spark-work-files-lakehouse': {
-    title: 'Use Apache Spark in Microsoft Fabric',
-    paths: ['lp2', 'lp3'],
-    primaryPath: 'lp3',
-    idStem: '3-DP-700_Apache-Spark_Quiz',
+  'describe-cloud-service-types': {
+    title: 'Describe cloud service types',
+    paths: ['lp1'],
+    primaryPath: 'lp1',
+    idStem: '3-AZ-900_Cloud-Service-Types_Quiz',
   },
-  'query-data-kql-database-microsoft-fabric': {
-    title: 'Work with real-time data in an Eventhouse in Microsoft Fabric',
-    paths: ['lp3', 'lp4'],
-    primaryPath: 'lp3',
-    idStem: '4-DP-700_Eventhouse-KQL_Quiz',
-  },
-  'introduction-end-analytics-use-microsoft-fabric': {
-    title: 'Introduction to end-to-end analytics using Microsoft Fabric',
-    paths: ['lp1', 'lp2', 'lp5'],
-    primaryPath: 'lp2',
-    idStem: '5-DP-700_Intro-End-to-End-Analytics_Quiz',
-  },
-  'get-started-lakehouses': {
-    title: 'Get started with lakehouses in Microsoft Fabric',
-    paths: ['lp1', 'lp2'],
-    primaryPath: 'lp2',
-    idStem: '6-DP-700_Lakehouse-Basics_Quiz',
-  },
-  'work-delta-lake-tables-fabric': {
-    title: 'Work with Delta Lake tables in Microsoft Fabric',
+  // lp2 — Describe Azure architecture and services
+  'describe-core-architectural-components-of-azure': {
+    title: 'Describe the core architectural components of Azure',
     paths: ['lp2'],
     primaryPath: 'lp2',
-    idStem: '8-DP-700_Delta-Lake-Tables_Quiz',
+    idStem: '4-AZ-900_Core-Architecture_Quiz',
   },
-  'describe-medallion-architecture': {
-    title: 'Organize a Fabric lakehouse using medallion architecture design',
+  // Learn kept the old combined slug when it split compute and networking.
+  'describe-azure-compute-networking-services': {
+    title: 'Describe Azure compute services',
     paths: ['lp2'],
     primaryPath: 'lp2',
-    idStem: '11-DP-700_Medallion-Architecture_Quiz',
+    idStem: '5-AZ-900_Compute-Services_Quiz',
   },
-  'get-started-kusto-fabric': {
-    title: 'Get started with Real-Time Intelligence in Microsoft Fabric',
-    paths: ['lp1', 'lp3', 'lp4'],
-    primaryPath: 'lp4',
-    idStem: '12-DP-700_Real-Time-Intelligence_Quiz',
+  'describe-azure-networking-services': {
+    title: 'Describe Azure networking services',
+    paths: ['lp2'],
+    primaryPath: 'lp2',
+    idStem: '6-AZ-900_Networking-Services_Quiz',
   },
-  'explore-event-streams-microsoft-fabric': {
-    title: 'Use real-time eventstreams in Microsoft Fabric',
-    paths: ['lp3', 'lp4'],
-    primaryPath: 'lp4',
-    idStem: '13-DP-700_Eventstream_Quiz',
+  'describe-azure-storage-services': {
+    title: 'Describe Azure storage services',
+    paths: ['lp2'],
+    primaryPath: 'lp2',
+    idStem: '7-AZ-900_Storage-Services_Quiz',
   },
-  'create-real-time-dashboards-microsoft-fabric': {
-    title: 'Create Real-Time Dashboards with Microsoft Fabric',
-    paths: ['lp4'],
-    primaryPath: 'lp4',
-    idStem: '15-DP-700_Real-Time-Dashboards_Quiz',
+  'describe-azure-identity-access-security': {
+    title: 'Describe Azure identity, access, and security',
+    paths: ['lp2'],
+    primaryPath: 'lp2',
+    idStem: '8-AZ-900_Identity-Access-Security_Quiz',
   },
-  // Activator is an RTI capability but Learn files it in none of lp1-lp4, so
-  // it gets no path tags — see the primaryPath note on ModuleInfo.
-  'use-fabric-activator': {
-    title: 'Use Activator in Microsoft Fabric',
-    paths: [],
-    idStem: '16-DP-700_Activator_Quiz',
+  // lp3 — Describe Azure management and governance
+  'describe-cost-management-azure': {
+    title: 'Describe cost management in Azure',
+    paths: ['lp3'],
+    primaryPath: 'lp3',
+    idStem: '9-AZ-900_Cost-Management_Quiz',
   },
-  'monitor-fabric-items': {
-    title: 'Monitor activities in Microsoft Fabric',
-    paths: ['lp6'],
-    primaryPath: 'lp6',
-    idStem: '24-DP-700_Monitoring-Hub_Quiz',
+  'describe-features-tools-azure-for-governance-compliance': {
+    title: 'Describe features and tools in Azure for governance and compliance',
+    paths: ['lp3'],
+    primaryPath: 'lp3',
+    idStem: '10-AZ-900_Governance-Compliance_Quiz',
   },
-  'get-started-data-warehouse': {
-    title: 'Get started with data warehouses in Microsoft Fabric',
-    paths: ['lp1', 'lp5'],
-    primaryPath: 'lp5',
-    idStem: '17-DP-700_Data-Warehouse-Basics_Quiz',
+  'describe-features-tools-manage-deploy-azure-resources': {
+    title: 'Describe features and tools for managing and deploying Azure resources',
+    paths: ['lp3'],
+    primaryPath: 'lp3',
+    idStem: '11-AZ-900_Manage-Deploy-Resources_Quiz',
   },
-  'load-data-into-microsoft-fabric-data-warehouse': {
-    title: 'Load data into a Microsoft Fabric data warehouse',
-    paths: ['lp5'],
-    primaryPath: 'lp5',
-    idStem: '18-DP-700_Load-Data-Warehouse_Quiz',
-  },
-  'query-data-warehouse-microsoft-fabric': {
-    title: 'Query a data warehouse in Microsoft Fabric',
-    paths: ['lp5'],
-    primaryPath: 'lp5',
-    idStem: '19-DP-700_Query-Data-Warehouse_Quiz',
-  },
-  'monitor-fabric-data-warehouse': {
-    title: 'Monitor a Microsoft Fabric data warehouse',
-    paths: ['lp5'],
-    primaryPath: 'lp5',
-    idStem: '21-DP-700_Monitor-Data-Warehouse_Quiz',
-  },
-  // Also in "Administer and govern Microsoft Fabric", which is not one of ours.
-  'secure-data-warehouse-in-microsoft-fabric': {
-    title: 'Secure a Microsoft Fabric data warehouse',
-    paths: ['lp5'],
-    primaryPath: 'lp5',
-    idStem: '22-DP-700_Secure-Data-Warehouse_Quiz',
-  },
-  // Studied alongside the warehouse path but not a member of it, and not an
-  // exam objective — so no path tags, like the other standalone modules.
-  'get-started-copilot-fabric-data-warehouse': {
-    title: 'Get started with Copilot in Microsoft Fabric for data warehouses',
-    paths: [],
-    idStem: '20-DP-700_Copilot-Data-Warehouse_Quiz',
-  },
-  // Lifecycle, monitoring and security in "Manage a Microsoft Fabric
-  // environment"; monitor-fabric-items above is the third module of the path.
-  'implement-cicd-in-fabric': {
-    title: 'Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric',
-    paths: ['lp6'],
-    primaryPath: 'lp6',
-    idStem: '24-DP-700_CICD_Quiz',
-  },
-  'secure-data-access-in-fabric': {
-    title: 'Secure data access in Microsoft Fabric',
-    paths: ['lp6'],
-    primaryPath: 'lp6',
-    idStem: '26-DP-700_Secure-Data-Access_Quiz',
+  'describe-monitoring-tools-azure': {
+    title: 'Describe monitoring tools in Azure',
+    paths: ['lp3'],
+    primaryPath: 'lp3',
+    idStem: '12-AZ-900_Monitoring-Tools_Quiz',
   },
 };
 
@@ -280,7 +221,7 @@ function uuidv5(name: string, namespace: string): string {
 }
 
 /** Fixed namespace for this bank — arbitrary but must never change. */
-const NS = '6f9619ff-8b86-d011-b42d-00c04fc964ff';
+const NS = 'b1f0a6d2-4c3e-5a90-9d7e-2a900f1c0de5';
 
 /** Strip the markdown the schemas forbid, leaving readable plain text. */
 function plain(md: string): string {
@@ -309,16 +250,16 @@ function capped(value: string, limit: number, label: string): string {
 }
 
 function parseDomain(body: string, file: string): Domain {
-  const line = body.match(/^DP-700 domains?:.*$/m)?.[0];
+  const line = body.match(/^AZ-900 domains?:.*$/m)?.[0];
   if (!line) {
-    warn(`${file}: no "DP-700 domain(s):" header line; defaulted to ingest-transform`);
-    return 'ingest-transform';
+    warn(`${file}: no "AZ-900 domain(s):" header line; defaulted to azure-architecture`);
+    return 'azure-architecture';
   }
   // Headers may list several domains; the first is the module's primary one.
   const first = line.match(/\*\*(.+?)\*\*/)?.[1] ?? line;
   for (const [re, domain] of DOMAIN_PROSE) if (re.test(first)) return domain;
-  warn(`${file}: unrecognised domain "${plain(first)}"; defaulted to ingest-transform`);
-  return 'ingest-transform';
+  warn(`${file}: unrecognised domain "${plain(first)}"; defaulted to azure-architecture`);
+  return 'azure-architecture';
 }
 
 function parseQuestions(body: string, file: string): ParsedQuestion[] {
@@ -388,7 +329,7 @@ function buildItems(file: string, body: string): BankItem[] {
   const stem = file.replace(/\.md$/, '');
   const domain = parseDomain(body, file);
   const headingTitle = plain(body.match(/^#\s+(.+)$/m)?.[1] ?? stem).replace(
-    /^DP-700 Practice Quiz\s*[—–-]\s*/,
+    /^AZ-900 Practice Quiz\s*[—–-]\s*/,
     '',
   );
   const sourceUrl = body.match(/^Source module:\s*(\S+)/m)?.[1];
