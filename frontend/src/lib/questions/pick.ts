@@ -10,6 +10,12 @@ import type { Question } from './types';
  * "hard" preference just fell through to easier questions. The column is still
  * there for when items are graded for real; until then selection ignores it.
  */
+/**
+ * Length of an all-modules quiz. A single-module quiz runs the whole module,
+ * but the full bank is far too long for one sitting.
+ */
+export const MIXED_QUIZ_LENGTH = 20;
+
 export function pickRandom<T extends Question>(
   pool: T[],
   count: number,

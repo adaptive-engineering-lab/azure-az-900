@@ -1,10 +1,9 @@
 import { Fragment, useEffect, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
+import { MIXED_QUIZ_LENGTH } from '../lib/questions/pick';
 import { useModules } from '../lib/questions/useModules';
 import { ROUTES } from '../lib/routes';
 import { supabase } from '../lib/supabase';
-
-const COUNTS = [5, 10, 20] as const;
 
 export default function QuizSelectPage() {
   const navigate = useNavigate();
@@ -13,7 +12,6 @@ export default function QuizSelectPage() {
   // 'all' mixes every module; otherwise the value is a module title (an
   // item's `topic`).
   const [topic, setTopic] = useState<string>(searchParams.get('topic') ?? 'all');
-  const [count, setCount] = useState<5 | 10 | 20>(10);
   const [poolSize, setPoolSize] = useState<number | null>(null);
 
   useEffect(() => {
@@ -28,12 +26,12 @@ export default function QuizSelectPage() {
     };
   }, [topic]);
 
-  const willDeliver = poolSize === null ? null : Math.min(poolSize, count);
+  // A module quiz runs the whole module; the all-modules mix is capped.
+  const willDeliver =
+    poolSize === null ? null : topic === 'all' ? Math.min(poolSize, MIXED_QUIZ_LENGTH) : poolSize;
 
   function start() {
-    const p = new URLSearchParams({
-      count: String(count),
-    });
+    const p = new URLSearchParams();
     if (topic !== 'all') p.set('topic', topic);
     navigate(`${ROUTES.quiz}/session?${p.toString()}`);
   }
@@ -42,7 +40,7 @@ export default function QuizSelectPage() {
     <section className="mx-auto w-full max-w-2xl">
       <header className="mb-6">
         <h1 className="text-2xl font-bold">Quiz</h1>
-        <p className="mt-1 text-fg-muted">Multiple choice with explanations. Pick your settings.</p>
+        <p className="mt-1 text-fg-muted">Multiple choice with explanations. Pick a module.</p>
       </header>
 
       <Fieldset legend="Module">
@@ -75,16 +73,6 @@ export default function QuizSelectPage() {
         </div>
       </Fieldset>
 
-      <Fieldset legend="Number of questions">
-        <div className="flex gap-2">
-          {COUNTS.map((n) => (
-            <Pill key={n} active={count === n} onClick={() => setCount(n)}>
-              {n}
-            </Pill>
-          ))}
-        </div>
-      </Fieldset>
-
       {poolSize !== null && (
         <p className="mt-4 text-xs text-fg-muted">
           {poolSize === 0
@@ -99,8 +87,8 @@ export default function QuizSelectPage() {
         disabled={poolSize === 0}
         className="mt-4 w-full rounded-md bg-accent px-4 py-3 text-base font-semibold text-accent-fg disabled:opacity-50"
       >
-        {willDeliver !== null && willDeliver < count
-          ? `Start quiz (${willDeliver} questions)`
+        {willDeliver
+          ? `Start quiz (${willDeliver} question${willDeliver === 1 ? '' : 's'})`
           : 'Start quiz'}
       </button>
     </section>

@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { fetchQuestions } from '../lib/questions/fetch';
-import { pickRandom } from '../lib/questions/pick';
+import { MIXED_QUIZ_LENGTH, pickRandom } from '../lib/questions/pick';
 import type { McqQuestion, Domain, OptionLetter } from '../lib/questions/types';
 import { useAppStore } from '../lib/store';
 import { computeNextReview } from '../lib/spacing';
@@ -30,7 +30,8 @@ interface Answer {
 export default function QuizSessionPage() {
   const [params] = useSearchParams();
   const topic = params.get('topic');
-  const count = Number(params.get('count') ?? 10);
+  // A module quiz runs every question in the module, shuffled.
+  const count = topic ? Infinity : MIXED_QUIZ_LENGTH;
 
   const [questions, setQuestions] = useState<McqQuestion[] | null>(null);
   const [error, setError] = useState<string | null>(null);
