@@ -3076,7 +3076,7 @@
       "ingest-transform",
       "get-started-with-data-warehouses-in-microsoft-fabric",
       "level-1",
-      "order:17",
+      "order:18",
       "module:get-started-data-warehouse",
       "path:lp1",
       "path:lp5",
@@ -3105,7 +3105,7 @@
       "ingest-transform",
       "get-started-with-data-warehouses-in-microsoft-fabric",
       "level-1",
-      "order:17",
+      "order:18",
       "module:get-started-data-warehouse",
       "path:lp1",
       "path:lp5",
@@ -3134,7 +3134,7 @@
       "ingest-transform",
       "get-started-with-data-warehouses-in-microsoft-fabric",
       "level-1",
-      "order:17",
+      "order:18",
       "module:get-started-data-warehouse",
       "path:lp1",
       "path:lp5",
@@ -3163,7 +3163,7 @@
       "ingest-transform",
       "get-started-with-data-warehouses-in-microsoft-fabric",
       "level-1",
-      "order:17",
+      "order:18",
       "module:get-started-data-warehouse",
       "path:lp1",
       "path:lp5",
@@ -3192,7 +3192,7 @@
       "ingest-transform",
       "get-started-with-data-warehouses-in-microsoft-fabric",
       "level-1",
-      "order:17",
+      "order:18",
       "module:get-started-data-warehouse",
       "path:lp1",
       "path:lp5",
@@ -3221,7 +3221,7 @@
       "ingest-transform",
       "get-started-with-data-warehouses-in-microsoft-fabric",
       "level-1",
-      "order:17",
+      "order:18",
       "module:get-started-data-warehouse",
       "path:lp1",
       "path:lp5",
@@ -3250,7 +3250,7 @@
       "ingest-transform",
       "get-started-with-data-warehouses-in-microsoft-fabric",
       "level-1",
-      "order:17",
+      "order:18",
       "module:get-started-data-warehouse",
       "path:lp1",
       "path:lp5",
@@ -3279,7 +3279,7 @@
       "ingest-transform",
       "get-started-with-data-warehouses-in-microsoft-fabric",
       "level-1",
-      "order:17",
+      "order:18",
       "module:get-started-data-warehouse",
       "path:lp1",
       "path:lp5",
@@ -3308,7 +3308,7 @@
       "ingest-transform",
       "get-started-with-data-warehouses-in-microsoft-fabric",
       "level-1",
-      "order:17",
+      "order:18",
       "module:get-started-data-warehouse",
       "path:lp1",
       "path:lp5",
@@ -3337,7 +3337,7 @@
       "ingest-transform",
       "get-started-with-data-warehouses-in-microsoft-fabric",
       "level-1",
-      "order:17",
+      "order:18",
       "module:get-started-data-warehouse",
       "path:lp1",
       "path:lp5",
@@ -3366,7 +3366,7 @@
       "ingest-transform",
       "get-started-with-data-warehouses-in-microsoft-fabric",
       "level-1",
-      "order:17",
+      "order:18",
       "module:get-started-data-warehouse",
       "path:lp1",
       "path:lp5",
@@ -3395,7 +3395,7 @@
       "ingest-transform",
       "get-started-with-data-warehouses-in-microsoft-fabric",
       "level-1",
-      "order:17",
+      "order:18",
       "module:get-started-data-warehouse",
       "path:lp1",
       "path:lp5",
@@ -3424,7 +3424,7 @@
       "ingest-transform",
       "get-started-with-data-warehouses-in-microsoft-fabric",
       "level-1",
-      "order:17",
+      "order:18",
       "module:get-started-data-warehouse",
       "path:lp1",
       "path:lp5",
@@ -3453,7 +3453,7 @@
       "ingest-transform",
       "get-started-with-data-warehouses-in-microsoft-fabric",
       "level-1",
-      "order:17",
+      "order:18",
       "module:get-started-data-warehouse",
       "path:lp1",
       "path:lp5",
@@ -3482,7 +3482,7 @@
       "ingest-transform",
       "get-started-with-data-warehouses-in-microsoft-fabric",
       "level-1",
-      "order:17",
+      "order:18",
       "module:get-started-data-warehouse",
       "path:lp1",
       "path:lp5",
@@ -3509,7 +3509,7 @@
       "ingest-transform",
       "get-started-with-data-warehouses-in-microsoft-fabric",
       "level-1",
-      "order:17",
+      "order:18",
       "module:get-started-data-warehouse",
       "path:lp1",
       "path:lp5",
@@ -3536,7 +3536,7 @@
       "ingest-transform",
       "get-started-with-data-warehouses-in-microsoft-fabric",
       "level-1",
-      "order:17",
+      "order:18",
       "module:get-started-data-warehouse",
       "path:lp1",
       "path:lp5",
@@ -3563,7 +3563,7 @@
       "ingest-transform",
       "get-started-with-data-warehouses-in-microsoft-fabric",
       "level-1",
-      "order:17",
+      "order:18",
       "module:get-started-data-warehouse",
       "path:lp1",
       "path:lp5",
@@ -3590,7 +3590,7 @@
       "ingest-transform",
       "get-started-with-data-warehouses-in-microsoft-fabric",
       "level-2",
-      "order:17",
+      "order:18",
       "module:get-started-data-warehouse",
       "path:lp1",
       "path:lp5",
@@ -3619,7 +3619,7 @@
       "ingest-transform",
       "get-started-with-data-warehouses-in-microsoft-fabric",
       "level-2",
-      "order:17",
+      "order:18",
       "module:get-started-data-warehouse",
       "path:lp1",
       "path:lp5",
@@ -3648,7 +3648,7 @@
       "ingest-transform",
       "load-data-into-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:18",
+      "order:19",
       "module:load-data-into-microsoft-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -3676,7 +3676,7 @@
       "ingest-transform",
       "load-data-into-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:18",
+      "order:19",
       "module:load-data-into-microsoft-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -3704,7 +3704,7 @@
       "ingest-transform",
       "load-data-into-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:18",
+      "order:19",
       "module:load-data-into-microsoft-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -3732,7 +3732,7 @@
       "ingest-transform",
       "load-data-into-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:18",
+      "order:19",
       "module:load-data-into-microsoft-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -3760,7 +3760,7 @@
       "ingest-transform",
       "load-data-into-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:18",
+      "order:19",
       "module:load-data-into-microsoft-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -3788,7 +3788,7 @@
       "ingest-transform",
       "load-data-into-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:18",
+      "order:19",
       "module:load-data-into-microsoft-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -3816,7 +3816,7 @@
       "ingest-transform",
       "load-data-into-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:18",
+      "order:19",
       "module:load-data-into-microsoft-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -3844,7 +3844,7 @@
       "ingest-transform",
       "load-data-into-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:18",
+      "order:19",
       "module:load-data-into-microsoft-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -3872,7 +3872,7 @@
       "ingest-transform",
       "load-data-into-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:18",
+      "order:19",
       "module:load-data-into-microsoft-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -3900,7 +3900,7 @@
       "ingest-transform",
       "load-data-into-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:18",
+      "order:19",
       "module:load-data-into-microsoft-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -3928,7 +3928,7 @@
       "ingest-transform",
       "load-data-into-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:18",
+      "order:19",
       "module:load-data-into-microsoft-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -3956,7 +3956,7 @@
       "ingest-transform",
       "load-data-into-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:18",
+      "order:19",
       "module:load-data-into-microsoft-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -3984,7 +3984,7 @@
       "ingest-transform",
       "load-data-into-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:18",
+      "order:19",
       "module:load-data-into-microsoft-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -4012,7 +4012,7 @@
       "ingest-transform",
       "load-data-into-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:18",
+      "order:19",
       "module:load-data-into-microsoft-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -4040,7 +4040,7 @@
       "ingest-transform",
       "load-data-into-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:18",
+      "order:19",
       "module:load-data-into-microsoft-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -4066,7 +4066,7 @@
       "ingest-transform",
       "load-data-into-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:18",
+      "order:19",
       "module:load-data-into-microsoft-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -4092,7 +4092,7 @@
       "ingest-transform",
       "load-data-into-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:18",
+      "order:19",
       "module:load-data-into-microsoft-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -4118,7 +4118,7 @@
       "ingest-transform",
       "load-data-into-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:18",
+      "order:19",
       "module:load-data-into-microsoft-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -4144,7 +4144,7 @@
       "ingest-transform",
       "load-data-into-a-microsoft-fabric-data-warehouse",
       "level-2",
-      "order:18",
+      "order:19",
       "module:load-data-into-microsoft-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -4172,7 +4172,7 @@
       "ingest-transform",
       "load-data-into-a-microsoft-fabric-data-warehouse",
       "level-2",
-      "order:18",
+      "order:19",
       "module:load-data-into-microsoft-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -4187,558 +4187,6 @@
       },
       "correct": "B",
       "explanation": "This matches the scenario precisely: a brand-new table (which is what CTAS is for, versus INSERT...SELECT needing an existing table), built by joining data across a warehouse and a lakehouse using the database.schema.table naming pattern."
-    }
-  },
-  {
-    "id": "dcfe17cc-d0db-5ca6-8a6f-456784b594c1",
-    "type": "mcq",
-    "domain": "ingest-transform",
-    "topic": "Query a data warehouse in Microsoft Fabric",
-    "difficulty": 1,
-    "source": "bank",
-    "tags": [
-      "ingest-transform",
-      "query-a-data-warehouse-in-microsoft-fabric",
-      "level-1",
-      "order:19",
-      "module:query-data-warehouse-microsoft-fabric",
-      "path:lp5",
-      "primary-path:lp5"
-    ],
-    "content": {
-      "question": "In a snowflake schema, why might a query need to join through an intermediate dimension table (like DimProduct) to reach a further-normalized table (like DimCategory), even if no columns from the intermediate table appear in the SELECT list?",
-      "options": {
-        "A": "It's optional; you could skip the intermediate join",
-        "B": "Both joins are required to traverse the relationship chain connecting the fact table to the final dimension table",
-        "C": "T-SQL requires listing every table in the FROM clause",
-        "D": "Snowflake schemas don't support this kind of aggregation"
-      },
-      "correct": "B",
-      "explanation": "In a snowflake schema, DimCategory only connects to FactSales through DimProduct — even with zero columns from DimProduct in the SELECT list, the join is structurally necessary to reach DimCategory at all."
-    }
-  },
-  {
-    "id": "b71bd1e2-575c-5073-80bf-c6443199a8be",
-    "type": "mcq",
-    "domain": "ingest-transform",
-    "topic": "Query a data warehouse in Microsoft Fabric",
-    "difficulty": 1,
-    "source": "bank",
-    "tags": [
-      "ingest-transform",
-      "query-a-data-warehouse-in-microsoft-fabric",
-      "level-1",
-      "order:19",
-      "module:query-data-warehouse-microsoft-fabric",
-      "path:lp5",
-      "primary-path:lp5"
-    ],
-    "content": {
-      "question": "Which ranking function returns the ordinal position of each row within a partition, with no ties (1, 2, 3, 4...)?",
-      "options": {
-        "A": "RANK",
-        "B": "DENSE_RANK",
-        "C": "ROW_NUMBER",
-        "D": "NTILE"
-      },
-      "correct": "C",
-      "explanation": "It assigns a strictly sequential position (1, 2, 3, 4...) within each partition, with no accommodation for ties — even identical values get different numbers."
-    }
-  },
-  {
-    "id": "0b3ae2b6-fe0b-592a-b8a6-9f85ca0c0bf8",
-    "type": "mcq",
-    "domain": "ingest-transform",
-    "topic": "Query a data warehouse in Microsoft Fabric",
-    "difficulty": 1,
-    "source": "bank",
-    "tags": [
-      "ingest-transform",
-      "query-a-data-warehouse-in-microsoft-fabric",
-      "level-1",
-      "order:19",
-      "module:query-data-warehouse-microsoft-fabric",
-      "path:lp5",
-      "primary-path:lp5"
-    ],
-    "content": {
-      "question": "When two rows tie for 3rd place using RANK, what rank does the next (4th positioned) row receive?",
-      "options": {
-        "A": "4",
-        "B": "5",
-        "C": "3",
-        "D": "1"
-      },
-      "correct": "B",
-      "explanation": "RANK counts ties as consuming positions: two rows tied for 3rd mean the next distinct value is ranked 5th (since two rows occupy \"3rd\"), reflecting that four rows total rank higher or equal."
-    }
-  },
-  {
-    "id": "e673d57d-d5aa-5373-869f-99d6995e7927",
-    "type": "mcq",
-    "domain": "ingest-transform",
-    "topic": "Query a data warehouse in Microsoft Fabric",
-    "difficulty": 1,
-    "source": "bank",
-    "tags": [
-      "ingest-transform",
-      "query-a-data-warehouse-in-microsoft-fabric",
-      "level-1",
-      "order:19",
-      "module:query-data-warehouse-microsoft-fabric",
-      "path:lp5",
-      "primary-path:lp5"
-    ],
-    "content": {
-      "question": "When two rows tie for 3rd place using DENSE_RANK, what rank does the next row receive?",
-      "options": {
-        "A": "5",
-        "B": "4",
-        "C": "3",
-        "D": "6"
-      },
-      "correct": "B",
-      "explanation": "DENSE_RANK doesn't leave gaps — after a tie at 3rd, the next distinct value is simply 4th, regardless of how many rows shared the previous rank."
-    }
-  },
-  {
-    "id": "8fdaee32-c50f-52da-a4ac-655dea3f7c00",
-    "type": "mcq",
-    "domain": "ingest-transform",
-    "topic": "Query a data warehouse in Microsoft Fabric",
-    "difficulty": 1,
-    "source": "bank",
-    "tags": [
-      "ingest-transform",
-      "query-a-data-warehouse-in-microsoft-fabric",
-      "level-1",
-      "order:19",
-      "module:query-data-warehouse-microsoft-fabric",
-      "path:lp5",
-      "primary-path:lp5"
-    ],
-    "content": {
-      "question": "What does the NTILE(4) function return for each row in a partition?",
-      "options": {
-        "A": "The exact rank of the row",
-        "B": "The quartile in which the row's value places it",
-        "C": "The total count of rows in the partition",
-        "D": "A boolean true/false value"
-      },
-      "correct": "B",
-      "explanation": "NTILE(4) divides the partition into four roughly equal groups and returns which group (1–4) each row falls into — useful for percentile-style analysis like identifying top/bottom performers."
-    }
-  },
-  {
-    "id": "7fd8631c-f61e-57dc-849a-9030f78b0233",
-    "type": "mcq",
-    "domain": "ingest-transform",
-    "topic": "Query a data warehouse in Microsoft Fabric",
-    "difficulty": 1,
-    "source": "bank",
-    "tags": [
-      "ingest-transform",
-      "query-a-data-warehouse-in-microsoft-fabric",
-      "level-1",
-      "order:19",
-      "module:query-data-warehouse-microsoft-fabric",
-      "path:lp5",
-      "primary-path:lp5"
-    ],
-    "content": {
-      "question": "What algorithm does APPROX_COUNT_DISTINCT use to calculate an approximate distinct count?",
-      "options": {
-        "A": "B-tree indexing",
-        "B": "HyperLogLog",
-        "C": "Bloom filter hashing",
-        "D": "Round-robin sampling"
-      },
-      "correct": "B",
-      "explanation": "This probabilistic algorithm is what powers APPROX_COUNT_DISTINCT's fast approximate counting, trading some precision for significant speed on large datasets."
-    }
-  },
-  {
-    "id": "35674833-e04f-5792-ac5f-5209ff277455",
-    "type": "mcq",
-    "domain": "ingest-transform",
-    "topic": "Query a data warehouse in Microsoft Fabric",
-    "difficulty": 1,
-    "source": "bank",
-    "tags": [
-      "ingest-transform",
-      "query-a-data-warehouse-in-microsoft-fabric",
-      "level-1",
-      "order:19",
-      "module:query-data-warehouse-microsoft-fabric",
-      "path:lp5",
-      "primary-path:lp5"
-    ],
-    "content": {
-      "question": "What is the guaranteed maximum error rate for APPROX_COUNT_DISTINCT, and with what probability?",
-      "options": {
-        "A": "2% error with 97% probability",
-        "B": "10% error with 90% probability",
-        "C": "0% error, fully guaranteed accurate",
-        "D": "50% error with 100% probability"
-      },
-      "correct": "A",
-      "explanation": "This is the specific guarantee stated for APPROX_COUNT_DISTINCT — a bounded, known trade-off rather than an unpredictable one, which is what makes it usable for exploratory analysis."
-    }
-  },
-  {
-    "id": "01768932-cdee-5ab4-b1c4-c3407406f70c",
-    "type": "mcq",
-    "domain": "ingest-transform",
-    "topic": "Query a data warehouse in Microsoft Fabric",
-    "difficulty": 1,
-    "source": "bank",
-    "tags": [
-      "ingest-transform",
-      "query-a-data-warehouse-in-microsoft-fabric",
-      "level-1",
-      "order:19",
-      "module:query-data-warehouse-microsoft-fabric",
-      "path:lp5",
-      "primary-path:lp5"
-    ],
-    "content": {
-      "question": "When you run a query in the Fabric SQL query editor, how many rows does the Results preview show at most?",
-      "options": {
-        "A": "100",
-        "B": "1,000",
-        "C": "10,000",
-        "D": "Unlimited"
-      },
-      "correct": "C",
-      "explanation": "The Results preview in the SQL query editor is capped at this many rows if the actual result set exceeds it."
-    }
-  },
-  {
-    "id": "9cc1ebaa-2e9e-5bf8-9b70-2dbfa2d37eed",
-    "type": "mcq",
-    "domain": "ingest-transform",
-    "topic": "Query a data warehouse in Microsoft Fabric",
-    "difficulty": 1,
-    "source": "bank",
-    "tags": [
-      "ingest-transform",
-      "query-a-data-warehouse-in-microsoft-fabric",
-      "level-1",
-      "order:19",
-      "module:query-data-warehouse-microsoft-fabric",
-      "path:lp5",
-      "primary-path:lp5"
-    ],
-    "content": {
-      "question": "Which results toolbar option in the SQL query editor does NOT support queries containing an ORDER BY clause?",
-      "options": {
-        "A": "Open in Excel",
-        "B": "Explore this data",
-        "C": "Visualize results",
-        "D": "Copy"
-      },
-      "correct": "C",
-      "explanation": "This option explicitly doesn't support queries with an ORDER BY clause — a specific limitation worth remembering, since the other toolbar options (Open in Excel, Explore this data, Copy) don't have this restriction."
-    }
-  },
-  {
-    "id": "4f1684cf-f299-5b5a-94ad-447182183f72",
-    "type": "mcq",
-    "domain": "ingest-transform",
-    "topic": "Query a data warehouse in Microsoft Fabric",
-    "difficulty": 1,
-    "source": "bank",
-    "tags": [
-      "ingest-transform",
-      "query-a-data-warehouse-in-microsoft-fabric",
-      "level-1",
-      "order:19",
-      "module:query-data-warehouse-microsoft-fabric",
-      "path:lp5",
-      "primary-path:lp5"
-    ],
-    "content": {
-      "question": "What is required before most of the SQL query editor's results toolbar options (like Open in Excel or Visualize results) become available?",
-      "options": {
-        "A": "Publishing the warehouse",
-        "B": "Highlighting a SELECT statement in the editor",
-        "C": "Enabling Copilot",
-        "D": "Saving the query as a view first"
-      },
-      "correct": "B",
-      "explanation": "Most results toolbar options require you to select the specific SELECT statement first, especially relevant when your editor contains multiple queries or statements."
-    }
-  },
-  {
-    "id": "be781c35-ce02-5c75-971b-e0e010b5e8b6",
-    "type": "mcq",
-    "domain": "ingest-transform",
-    "topic": "Query a data warehouse in Microsoft Fabric",
-    "difficulty": 1,
-    "source": "bank",
-    "tags": [
-      "ingest-transform",
-      "query-a-data-warehouse-in-microsoft-fabric",
-      "level-1",
-      "order:19",
-      "module:query-data-warehouse-microsoft-fabric",
-      "path:lp5",
-      "primary-path:lp5"
-    ],
-    "content": {
-      "question": "What capacity requirement applies to using Copilot in the Fabric Data Warehouse SQL query editor?",
-      "options": {
-        "A": "Any SKU, including trial",
-        "B": "F2 or P1 capacity or higher; not available on trial SKUs",
-        "C": "Only P-series SKUs; F-series is not supported",
-        "D": "No capacity requirement"
-      },
-      "correct": "B",
-      "explanation": "This matches the requirement from the dedicated Copilot module — trial SKUs specifically don't support Copilot in Data Warehouse."
-    }
-  },
-  {
-    "id": "7d9eed08-2bf4-5caf-b5be-29ffe1f8fa0b",
-    "type": "mcq",
-    "domain": "ingest-transform",
-    "topic": "Query a data warehouse in Microsoft Fabric",
-    "difficulty": 1,
-    "source": "bank",
-    "tags": [
-      "ingest-transform",
-      "query-a-data-warehouse-in-microsoft-fabric",
-      "level-1",
-      "order:19",
-      "module:query-data-warehouse-microsoft-fabric",
-      "path:lp5",
-      "primary-path:lp5"
-    ],
-    "content": {
-      "question": "In the visual query editor, what action lets you join two tables you've dragged onto the canvas?",
-      "options": {
-        "A": "Selecting Save as view",
-        "B": "Right-clicking a table and selecting Merge queries",
-        "C": "Using the /generate-sql Copilot command",
-        "D": "Selecting Download Excel file"
-      },
-      "correct": "B",
-      "explanation": "This opens the Merge dialog where you pick the common key column in each table and choose a join type — the visual equivalent of writing a JOIN clause by hand."
-    }
-  },
-  {
-    "id": "c98461c6-5c3b-5b4f-ba32-4b66bdbf0650",
-    "type": "mcq",
-    "domain": "ingest-transform",
-    "topic": "Query a data warehouse in Microsoft Fabric",
-    "difficulty": 1,
-    "source": "bank",
-    "tags": [
-      "ingest-transform",
-      "query-a-data-warehouse-in-microsoft-fabric",
-      "level-1",
-      "order:19",
-      "module:query-data-warehouse-microsoft-fabric",
-      "path:lp5",
-      "primary-path:lp5"
-    ],
-    "content": {
-      "question": "In the visual query editor, what happens to the T-SQL as you build your query visually?",
-      "options": {
-        "A": "Nothing; you must write it manually afterward",
-        "B": "It is generated automatically and can be viewed or edited",
-        "C": "It is hidden and inaccessible",
-        "D": "It only becomes visible after publishing"
-      },
-      "correct": "B",
-      "explanation": "You can select View SQL to inspect the generated T-SQL, or Edit SQL script to open it directly in the SQL query editor for further manual refinement."
-    }
-  },
-  {
-    "id": "7caf0385-9935-5acd-9ce0-f1543ed8669b",
-    "type": "mcq",
-    "domain": "ingest-transform",
-    "topic": "Query a data warehouse in Microsoft Fabric",
-    "difficulty": 1,
-    "source": "bank",
-    "tags": [
-      "ingest-transform",
-      "query-a-data-warehouse-in-microsoft-fabric",
-      "level-1",
-      "order:19",
-      "module:query-data-warehouse-microsoft-fabric",
-      "path:lp5",
-      "primary-path:lp5"
-    ],
-    "content": {
-      "question": "What authentication method does Microsoft Fabric support for connecting to a warehouse via SSMS or other client tools?",
-      "options": {
-        "A": "SQL authentication only",
-        "B": "Microsoft Entra ID authentication only; SQL authentication isn't supported",
-        "C": "Both SQL authentication and Entra ID, with SQL preferred",
-        "D": "Anonymous access only"
-      },
-      "correct": "B",
-      "explanation": "This is stated explicitly and applies uniformly — whether connecting via SSMS or any other client tool."
-    }
-  },
-  {
-    "id": "422119e7-defb-56f7-ba1e-abe0a7e0d858",
-    "type": "mcq",
-    "domain": "ingest-transform",
-    "topic": "Query a data warehouse in Microsoft Fabric",
-    "difficulty": 1,
-    "source": "bank",
-    "tags": [
-      "ingest-transform",
-      "query-a-data-warehouse-in-microsoft-fabric",
-      "level-1",
-      "order:19",
-      "module:query-data-warehouse-microsoft-fabric",
-      "path:lp5",
-      "primary-path:lp5"
-    ],
-    "content": {
-      "question": "True or false? When connecting to a Fabric warehouse from SSMS, leaving the Database Name field blank is fine as long as authentication succeeds.",
-      "options": {
-        "A": "True",
-        "B": "False"
-      },
-      "correct": "B",
-      "explanation": "The Database Name field is explicitly required — leaving it blank can cause the connection to fail even if Entra ID authentication itself succeeds."
-    }
-  },
-  {
-    "id": "2f40add6-3f88-5d82-a628-220f76b67a11",
-    "type": "mcq",
-    "domain": "ingest-transform",
-    "topic": "Query a data warehouse in Microsoft Fabric",
-    "difficulty": 1,
-    "source": "bank",
-    "tags": [
-      "ingest-transform",
-      "query-a-data-warehouse-in-microsoft-fabric",
-      "level-1",
-      "order:19",
-      "module:query-data-warehouse-microsoft-fabric",
-      "path:lp5",
-      "primary-path:lp5"
-    ],
-    "content": {
-      "question": "True or false? TCP port 1433 must be open in your network firewall to connect to a Fabric warehouse from external client tools.",
-      "options": {
-        "A": "True",
-        "B": "False"
-      },
-      "correct": "A",
-      "explanation": "TCP port 1433 needs to be open in your network firewall for external client tool connectivity to a Fabric warehouse to work."
-    }
-  },
-  {
-    "id": "d8e0d84a-0f14-5766-82a6-80a4a170db46",
-    "type": "mcq",
-    "domain": "ingest-transform",
-    "topic": "Query a data warehouse in Microsoft Fabric",
-    "difficulty": 1,
-    "source": "bank",
-    "tags": [
-      "ingest-transform",
-      "query-a-data-warehouse-in-microsoft-fabric",
-      "level-1",
-      "order:19",
-      "module:query-data-warehouse-microsoft-fabric",
-      "path:lp5",
-      "primary-path:lp5"
-    ],
-    "content": {
-      "question": "True or false? The SQL query editor in Fabric requires you to manually enter a connection string to connect to your warehouse.",
-      "options": {
-        "A": "True",
-        "B": "False"
-      },
-      "correct": "B",
-      "explanation": "The SQL query editor connects automatically when you select your warehouse from the workspace — no connection string or manual connection info is required, unlike external tools like SSMS which do need one."
-    }
-  },
-  {
-    "id": "63c4ad61-f6dc-5c82-964a-a3cc3ce5aedb",
-    "type": "mcq",
-    "domain": "ingest-transform",
-    "topic": "Query a data warehouse in Microsoft Fabric",
-    "difficulty": 1,
-    "source": "bank",
-    "tags": [
-      "ingest-transform",
-      "query-a-data-warehouse-in-microsoft-fabric",
-      "level-1",
-      "order:19",
-      "module:query-data-warehouse-microsoft-fabric",
-      "path:lp5",
-      "primary-path:lp5"
-    ],
-    "content": {
-      "question": "True or false? Third-party tools can connect to a Fabric Warehouse or SQL analytics endpoint using ODBC or OLE DB drivers with Microsoft Entra ID authentication. ---",
-      "options": {
-        "A": "True",
-        "B": "False"
-      },
-      "correct": "A",
-      "explanation": "Any third-party tool can connect via ODBC or OLE DB drivers using the SQL connection string, authenticating with Microsoft Entra ID — the same authentication requirement that applies across all client tool connections to Fabric."
-    }
-  },
-  {
-    "id": "cf66c723-9714-5609-9991-c1570963d95c",
-    "type": "mcq",
-    "domain": "ingest-transform",
-    "topic": "Query a data warehouse in Microsoft Fabric",
-    "difficulty": 2,
-    "source": "bank",
-    "tags": [
-      "ingest-transform",
-      "query-a-data-warehouse-in-microsoft-fabric",
-      "level-2",
-      "order:19",
-      "module:query-data-warehouse-microsoft-fabric",
-      "path:lp5",
-      "primary-path:lp5"
-    ],
-    "content": {
-      "question": "You want to rank stores by sales revenue each year, but you specifically need ties to NOT create gaps in the ranking sequence (e.g., two stores tied for 2nd should be followed by a store ranked 3rd, not 4th). Which ranking function should you use?",
-      "options": {
-        "A": "ROW_NUMBER",
-        "B": "RANK",
-        "C": "DENSE_RANK",
-        "D": "NTILE"
-      },
-      "correct": "C",
-      "explanation": "This is exactly the behavior needed: ties don't consume extra rank positions, so the ranking sequence continues without gaps after a tie — unlike RANK, which would skip ahead based on how many rows tied."
-    }
-  },
-  {
-    "id": "0105ae68-b33a-53c1-a4fa-3515c9199dd5",
-    "type": "mcq",
-    "domain": "ingest-transform",
-    "topic": "Query a data warehouse in Microsoft Fabric",
-    "difficulty": 2,
-    "source": "bank",
-    "tags": [
-      "ingest-transform",
-      "query-a-data-warehouse-in-microsoft-fabric",
-      "level-2",
-      "order:19",
-      "module:query-data-warehouse-microsoft-fabric",
-      "path:lp5",
-      "primary-path:lp5"
-    ],
-    "content": {
-      "question": "You need to quickly estimate the number of distinct customers who placed orders last year across a very large FactSales table, and exact precision isn't critical for this initial exploration — query speed matters more. What should you use?",
-      "options": {
-        "A": "COUNT(DISTINCT CustomerKey)",
-        "B": "APPROX_COUNT_DISTINCT(CustomerKey)",
-        "C": "ROW_NUMBER() OVER (PARTITION BY CustomerKey)",
-        "D": "NTILE(100)"
-      },
-      "correct": "B",
-      "explanation": "This matches the scenario precisely: fast, approximate counting for large-scale exploratory analysis where exact precision isn't the priority — trading a small, bounded error rate (2% at 97% probability) for significantly better performance than a precise COUNT(DISTINCT ...)."
     }
   },
   {
@@ -5198,6 +4646,558 @@
     }
   },
   {
+    "id": "dcfe17cc-d0db-5ca6-8a6f-456784b594c1",
+    "type": "mcq",
+    "domain": "ingest-transform",
+    "topic": "Query a data warehouse in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "ingest-transform",
+      "query-a-data-warehouse-in-microsoft-fabric",
+      "level-1",
+      "order:20",
+      "module:query-data-warehouse-microsoft-fabric",
+      "path:lp5",
+      "primary-path:lp5"
+    ],
+    "content": {
+      "question": "In a snowflake schema, why might a query need to join through an intermediate dimension table (like DimProduct) to reach a further-normalized table (like DimCategory), even if no columns from the intermediate table appear in the SELECT list?",
+      "options": {
+        "A": "It's optional; you could skip the intermediate join",
+        "B": "Both joins are required to traverse the relationship chain connecting the fact table to the final dimension table",
+        "C": "T-SQL requires listing every table in the FROM clause",
+        "D": "Snowflake schemas don't support this kind of aggregation"
+      },
+      "correct": "B",
+      "explanation": "In a snowflake schema, DimCategory only connects to FactSales through DimProduct — even with zero columns from DimProduct in the SELECT list, the join is structurally necessary to reach DimCategory at all."
+    }
+  },
+  {
+    "id": "b71bd1e2-575c-5073-80bf-c6443199a8be",
+    "type": "mcq",
+    "domain": "ingest-transform",
+    "topic": "Query a data warehouse in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "ingest-transform",
+      "query-a-data-warehouse-in-microsoft-fabric",
+      "level-1",
+      "order:20",
+      "module:query-data-warehouse-microsoft-fabric",
+      "path:lp5",
+      "primary-path:lp5"
+    ],
+    "content": {
+      "question": "Which ranking function returns the ordinal position of each row within a partition, with no ties (1, 2, 3, 4...)?",
+      "options": {
+        "A": "RANK",
+        "B": "DENSE_RANK",
+        "C": "ROW_NUMBER",
+        "D": "NTILE"
+      },
+      "correct": "C",
+      "explanation": "It assigns a strictly sequential position (1, 2, 3, 4...) within each partition, with no accommodation for ties — even identical values get different numbers."
+    }
+  },
+  {
+    "id": "0b3ae2b6-fe0b-592a-b8a6-9f85ca0c0bf8",
+    "type": "mcq",
+    "domain": "ingest-transform",
+    "topic": "Query a data warehouse in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "ingest-transform",
+      "query-a-data-warehouse-in-microsoft-fabric",
+      "level-1",
+      "order:20",
+      "module:query-data-warehouse-microsoft-fabric",
+      "path:lp5",
+      "primary-path:lp5"
+    ],
+    "content": {
+      "question": "When two rows tie for 3rd place using RANK, what rank does the next (4th positioned) row receive?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "3",
+        "D": "1"
+      },
+      "correct": "B",
+      "explanation": "RANK counts ties as consuming positions: two rows tied for 3rd mean the next distinct value is ranked 5th (since two rows occupy \"3rd\"), reflecting that four rows total rank higher or equal."
+    }
+  },
+  {
+    "id": "e673d57d-d5aa-5373-869f-99d6995e7927",
+    "type": "mcq",
+    "domain": "ingest-transform",
+    "topic": "Query a data warehouse in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "ingest-transform",
+      "query-a-data-warehouse-in-microsoft-fabric",
+      "level-1",
+      "order:20",
+      "module:query-data-warehouse-microsoft-fabric",
+      "path:lp5",
+      "primary-path:lp5"
+    ],
+    "content": {
+      "question": "When two rows tie for 3rd place using DENSE_RANK, what rank does the next row receive?",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "3",
+        "D": "6"
+      },
+      "correct": "B",
+      "explanation": "DENSE_RANK doesn't leave gaps — after a tie at 3rd, the next distinct value is simply 4th, regardless of how many rows shared the previous rank."
+    }
+  },
+  {
+    "id": "8fdaee32-c50f-52da-a4ac-655dea3f7c00",
+    "type": "mcq",
+    "domain": "ingest-transform",
+    "topic": "Query a data warehouse in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "ingest-transform",
+      "query-a-data-warehouse-in-microsoft-fabric",
+      "level-1",
+      "order:20",
+      "module:query-data-warehouse-microsoft-fabric",
+      "path:lp5",
+      "primary-path:lp5"
+    ],
+    "content": {
+      "question": "What does the NTILE(4) function return for each row in a partition?",
+      "options": {
+        "A": "The exact rank of the row",
+        "B": "The quartile in which the row's value places it",
+        "C": "The total count of rows in the partition",
+        "D": "A boolean true/false value"
+      },
+      "correct": "B",
+      "explanation": "NTILE(4) divides the partition into four roughly equal groups and returns which group (1–4) each row falls into — useful for percentile-style analysis like identifying top/bottom performers."
+    }
+  },
+  {
+    "id": "7fd8631c-f61e-57dc-849a-9030f78b0233",
+    "type": "mcq",
+    "domain": "ingest-transform",
+    "topic": "Query a data warehouse in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "ingest-transform",
+      "query-a-data-warehouse-in-microsoft-fabric",
+      "level-1",
+      "order:20",
+      "module:query-data-warehouse-microsoft-fabric",
+      "path:lp5",
+      "primary-path:lp5"
+    ],
+    "content": {
+      "question": "What algorithm does APPROX_COUNT_DISTINCT use to calculate an approximate distinct count?",
+      "options": {
+        "A": "B-tree indexing",
+        "B": "HyperLogLog",
+        "C": "Bloom filter hashing",
+        "D": "Round-robin sampling"
+      },
+      "correct": "B",
+      "explanation": "This probabilistic algorithm is what powers APPROX_COUNT_DISTINCT's fast approximate counting, trading some precision for significant speed on large datasets."
+    }
+  },
+  {
+    "id": "35674833-e04f-5792-ac5f-5209ff277455",
+    "type": "mcq",
+    "domain": "ingest-transform",
+    "topic": "Query a data warehouse in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "ingest-transform",
+      "query-a-data-warehouse-in-microsoft-fabric",
+      "level-1",
+      "order:20",
+      "module:query-data-warehouse-microsoft-fabric",
+      "path:lp5",
+      "primary-path:lp5"
+    ],
+    "content": {
+      "question": "What is the guaranteed maximum error rate for APPROX_COUNT_DISTINCT, and with what probability?",
+      "options": {
+        "A": "2% error with 97% probability",
+        "B": "10% error with 90% probability",
+        "C": "0% error, fully guaranteed accurate",
+        "D": "50% error with 100% probability"
+      },
+      "correct": "A",
+      "explanation": "This is the specific guarantee stated for APPROX_COUNT_DISTINCT — a bounded, known trade-off rather than an unpredictable one, which is what makes it usable for exploratory analysis."
+    }
+  },
+  {
+    "id": "01768932-cdee-5ab4-b1c4-c3407406f70c",
+    "type": "mcq",
+    "domain": "ingest-transform",
+    "topic": "Query a data warehouse in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "ingest-transform",
+      "query-a-data-warehouse-in-microsoft-fabric",
+      "level-1",
+      "order:20",
+      "module:query-data-warehouse-microsoft-fabric",
+      "path:lp5",
+      "primary-path:lp5"
+    ],
+    "content": {
+      "question": "When you run a query in the Fabric SQL query editor, how many rows does the Results preview show at most?",
+      "options": {
+        "A": "100",
+        "B": "1,000",
+        "C": "10,000",
+        "D": "Unlimited"
+      },
+      "correct": "C",
+      "explanation": "The Results preview in the SQL query editor is capped at this many rows if the actual result set exceeds it."
+    }
+  },
+  {
+    "id": "9cc1ebaa-2e9e-5bf8-9b70-2dbfa2d37eed",
+    "type": "mcq",
+    "domain": "ingest-transform",
+    "topic": "Query a data warehouse in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "ingest-transform",
+      "query-a-data-warehouse-in-microsoft-fabric",
+      "level-1",
+      "order:20",
+      "module:query-data-warehouse-microsoft-fabric",
+      "path:lp5",
+      "primary-path:lp5"
+    ],
+    "content": {
+      "question": "Which results toolbar option in the SQL query editor does NOT support queries containing an ORDER BY clause?",
+      "options": {
+        "A": "Open in Excel",
+        "B": "Explore this data",
+        "C": "Visualize results",
+        "D": "Copy"
+      },
+      "correct": "C",
+      "explanation": "This option explicitly doesn't support queries with an ORDER BY clause — a specific limitation worth remembering, since the other toolbar options (Open in Excel, Explore this data, Copy) don't have this restriction."
+    }
+  },
+  {
+    "id": "4f1684cf-f299-5b5a-94ad-447182183f72",
+    "type": "mcq",
+    "domain": "ingest-transform",
+    "topic": "Query a data warehouse in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "ingest-transform",
+      "query-a-data-warehouse-in-microsoft-fabric",
+      "level-1",
+      "order:20",
+      "module:query-data-warehouse-microsoft-fabric",
+      "path:lp5",
+      "primary-path:lp5"
+    ],
+    "content": {
+      "question": "What is required before most of the SQL query editor's results toolbar options (like Open in Excel or Visualize results) become available?",
+      "options": {
+        "A": "Publishing the warehouse",
+        "B": "Highlighting a SELECT statement in the editor",
+        "C": "Enabling Copilot",
+        "D": "Saving the query as a view first"
+      },
+      "correct": "B",
+      "explanation": "Most results toolbar options require you to select the specific SELECT statement first, especially relevant when your editor contains multiple queries or statements."
+    }
+  },
+  {
+    "id": "be781c35-ce02-5c75-971b-e0e010b5e8b6",
+    "type": "mcq",
+    "domain": "ingest-transform",
+    "topic": "Query a data warehouse in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "ingest-transform",
+      "query-a-data-warehouse-in-microsoft-fabric",
+      "level-1",
+      "order:20",
+      "module:query-data-warehouse-microsoft-fabric",
+      "path:lp5",
+      "primary-path:lp5"
+    ],
+    "content": {
+      "question": "What capacity requirement applies to using Copilot in the Fabric Data Warehouse SQL query editor?",
+      "options": {
+        "A": "Any SKU, including trial",
+        "B": "F2 or P1 capacity or higher; not available on trial SKUs",
+        "C": "Only P-series SKUs; F-series is not supported",
+        "D": "No capacity requirement"
+      },
+      "correct": "B",
+      "explanation": "This matches the requirement from the dedicated Copilot module — trial SKUs specifically don't support Copilot in Data Warehouse."
+    }
+  },
+  {
+    "id": "7d9eed08-2bf4-5caf-b5be-29ffe1f8fa0b",
+    "type": "mcq",
+    "domain": "ingest-transform",
+    "topic": "Query a data warehouse in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "ingest-transform",
+      "query-a-data-warehouse-in-microsoft-fabric",
+      "level-1",
+      "order:20",
+      "module:query-data-warehouse-microsoft-fabric",
+      "path:lp5",
+      "primary-path:lp5"
+    ],
+    "content": {
+      "question": "In the visual query editor, what action lets you join two tables you've dragged onto the canvas?",
+      "options": {
+        "A": "Selecting Save as view",
+        "B": "Right-clicking a table and selecting Merge queries",
+        "C": "Using the /generate-sql Copilot command",
+        "D": "Selecting Download Excel file"
+      },
+      "correct": "B",
+      "explanation": "This opens the Merge dialog where you pick the common key column in each table and choose a join type — the visual equivalent of writing a JOIN clause by hand."
+    }
+  },
+  {
+    "id": "c98461c6-5c3b-5b4f-ba32-4b66bdbf0650",
+    "type": "mcq",
+    "domain": "ingest-transform",
+    "topic": "Query a data warehouse in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "ingest-transform",
+      "query-a-data-warehouse-in-microsoft-fabric",
+      "level-1",
+      "order:20",
+      "module:query-data-warehouse-microsoft-fabric",
+      "path:lp5",
+      "primary-path:lp5"
+    ],
+    "content": {
+      "question": "In the visual query editor, what happens to the T-SQL as you build your query visually?",
+      "options": {
+        "A": "Nothing; you must write it manually afterward",
+        "B": "It is generated automatically and can be viewed or edited",
+        "C": "It is hidden and inaccessible",
+        "D": "It only becomes visible after publishing"
+      },
+      "correct": "B",
+      "explanation": "You can select View SQL to inspect the generated T-SQL, or Edit SQL script to open it directly in the SQL query editor for further manual refinement."
+    }
+  },
+  {
+    "id": "7caf0385-9935-5acd-9ce0-f1543ed8669b",
+    "type": "mcq",
+    "domain": "ingest-transform",
+    "topic": "Query a data warehouse in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "ingest-transform",
+      "query-a-data-warehouse-in-microsoft-fabric",
+      "level-1",
+      "order:20",
+      "module:query-data-warehouse-microsoft-fabric",
+      "path:lp5",
+      "primary-path:lp5"
+    ],
+    "content": {
+      "question": "What authentication method does Microsoft Fabric support for connecting to a warehouse via SSMS or other client tools?",
+      "options": {
+        "A": "SQL authentication only",
+        "B": "Microsoft Entra ID authentication only; SQL authentication isn't supported",
+        "C": "Both SQL authentication and Entra ID, with SQL preferred",
+        "D": "Anonymous access only"
+      },
+      "correct": "B",
+      "explanation": "This is stated explicitly and applies uniformly — whether connecting via SSMS or any other client tool."
+    }
+  },
+  {
+    "id": "422119e7-defb-56f7-ba1e-abe0a7e0d858",
+    "type": "mcq",
+    "domain": "ingest-transform",
+    "topic": "Query a data warehouse in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "ingest-transform",
+      "query-a-data-warehouse-in-microsoft-fabric",
+      "level-1",
+      "order:20",
+      "module:query-data-warehouse-microsoft-fabric",
+      "path:lp5",
+      "primary-path:lp5"
+    ],
+    "content": {
+      "question": "True or false? When connecting to a Fabric warehouse from SSMS, leaving the Database Name field blank is fine as long as authentication succeeds.",
+      "options": {
+        "A": "True",
+        "B": "False"
+      },
+      "correct": "B",
+      "explanation": "The Database Name field is explicitly required — leaving it blank can cause the connection to fail even if Entra ID authentication itself succeeds."
+    }
+  },
+  {
+    "id": "2f40add6-3f88-5d82-a628-220f76b67a11",
+    "type": "mcq",
+    "domain": "ingest-transform",
+    "topic": "Query a data warehouse in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "ingest-transform",
+      "query-a-data-warehouse-in-microsoft-fabric",
+      "level-1",
+      "order:20",
+      "module:query-data-warehouse-microsoft-fabric",
+      "path:lp5",
+      "primary-path:lp5"
+    ],
+    "content": {
+      "question": "True or false? TCP port 1433 must be open in your network firewall to connect to a Fabric warehouse from external client tools.",
+      "options": {
+        "A": "True",
+        "B": "False"
+      },
+      "correct": "A",
+      "explanation": "TCP port 1433 needs to be open in your network firewall for external client tool connectivity to a Fabric warehouse to work."
+    }
+  },
+  {
+    "id": "d8e0d84a-0f14-5766-82a6-80a4a170db46",
+    "type": "mcq",
+    "domain": "ingest-transform",
+    "topic": "Query a data warehouse in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "ingest-transform",
+      "query-a-data-warehouse-in-microsoft-fabric",
+      "level-1",
+      "order:20",
+      "module:query-data-warehouse-microsoft-fabric",
+      "path:lp5",
+      "primary-path:lp5"
+    ],
+    "content": {
+      "question": "True or false? The SQL query editor in Fabric requires you to manually enter a connection string to connect to your warehouse.",
+      "options": {
+        "A": "True",
+        "B": "False"
+      },
+      "correct": "B",
+      "explanation": "The SQL query editor connects automatically when you select your warehouse from the workspace — no connection string or manual connection info is required, unlike external tools like SSMS which do need one."
+    }
+  },
+  {
+    "id": "63c4ad61-f6dc-5c82-964a-a3cc3ce5aedb",
+    "type": "mcq",
+    "domain": "ingest-transform",
+    "topic": "Query a data warehouse in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "ingest-transform",
+      "query-a-data-warehouse-in-microsoft-fabric",
+      "level-1",
+      "order:20",
+      "module:query-data-warehouse-microsoft-fabric",
+      "path:lp5",
+      "primary-path:lp5"
+    ],
+    "content": {
+      "question": "True or false? Third-party tools can connect to a Fabric Warehouse or SQL analytics endpoint using ODBC or OLE DB drivers with Microsoft Entra ID authentication. ---",
+      "options": {
+        "A": "True",
+        "B": "False"
+      },
+      "correct": "A",
+      "explanation": "Any third-party tool can connect via ODBC or OLE DB drivers using the SQL connection string, authenticating with Microsoft Entra ID — the same authentication requirement that applies across all client tool connections to Fabric."
+    }
+  },
+  {
+    "id": "cf66c723-9714-5609-9991-c1570963d95c",
+    "type": "mcq",
+    "domain": "ingest-transform",
+    "topic": "Query a data warehouse in Microsoft Fabric",
+    "difficulty": 2,
+    "source": "bank",
+    "tags": [
+      "ingest-transform",
+      "query-a-data-warehouse-in-microsoft-fabric",
+      "level-2",
+      "order:20",
+      "module:query-data-warehouse-microsoft-fabric",
+      "path:lp5",
+      "primary-path:lp5"
+    ],
+    "content": {
+      "question": "You want to rank stores by sales revenue each year, but you specifically need ties to NOT create gaps in the ranking sequence (e.g., two stores tied for 2nd should be followed by a store ranked 3rd, not 4th). Which ranking function should you use?",
+      "options": {
+        "A": "ROW_NUMBER",
+        "B": "RANK",
+        "C": "DENSE_RANK",
+        "D": "NTILE"
+      },
+      "correct": "C",
+      "explanation": "This is exactly the behavior needed: ties don't consume extra rank positions, so the ranking sequence continues without gaps after a tie — unlike RANK, which would skip ahead based on how many rows tied."
+    }
+  },
+  {
+    "id": "0105ae68-b33a-53c1-a4fa-3515c9199dd5",
+    "type": "mcq",
+    "domain": "ingest-transform",
+    "topic": "Query a data warehouse in Microsoft Fabric",
+    "difficulty": 2,
+    "source": "bank",
+    "tags": [
+      "ingest-transform",
+      "query-a-data-warehouse-in-microsoft-fabric",
+      "level-2",
+      "order:20",
+      "module:query-data-warehouse-microsoft-fabric",
+      "path:lp5",
+      "primary-path:lp5"
+    ],
+    "content": {
+      "question": "You need to quickly estimate the number of distinct customers who placed orders last year across a very large FactSales table, and exact precision isn't critical for this initial exploration — query speed matters more. What should you use?",
+      "options": {
+        "A": "COUNT(DISTINCT CustomerKey)",
+        "B": "APPROX_COUNT_DISTINCT(CustomerKey)",
+        "C": "ROW_NUMBER() OVER (PARTITION BY CustomerKey)",
+        "D": "NTILE(100)"
+      },
+      "correct": "B",
+      "explanation": "This matches the scenario precisely: fast, approximate counting for large-scale exploratory analysis where exact precision isn't the priority — trading a small, bounded error rate (2% at 97% probability) for significantly better performance than a precise COUNT(DISTINCT ...)."
+    }
+  },
+  {
     "id": "f898cb03-a779-568a-aac0-3226518abb59",
     "type": "mcq",
     "domain": "implement-manage",
@@ -5208,7 +5208,7 @@
       "implement-manage",
       "get-started-with-copilot-in-microsoft-fabric-for-data-warehouses",
       "level-1",
-      "order:20",
+      "order:21",
       "module:get-started-copilot-fabric-data-warehouse"
     ],
     "content": {
@@ -5234,7 +5234,7 @@
       "implement-manage",
       "get-started-with-copilot-in-microsoft-fabric-for-data-warehouses",
       "level-1",
-      "order:20",
+      "order:21",
       "module:get-started-copilot-fabric-data-warehouse"
     ],
     "content": {
@@ -5260,7 +5260,7 @@
       "implement-manage",
       "get-started-with-copilot-in-microsoft-fabric-for-data-warehouses",
       "level-1",
-      "order:20",
+      "order:21",
       "module:get-started-copilot-fabric-data-warehouse"
     ],
     "content": {
@@ -5286,7 +5286,7 @@
       "implement-manage",
       "get-started-with-copilot-in-microsoft-fabric-for-data-warehouses",
       "level-1",
-      "order:20",
+      "order:21",
       "module:get-started-copilot-fabric-data-warehouse"
     ],
     "content": {
@@ -5312,7 +5312,7 @@
       "implement-manage",
       "get-started-with-copilot-in-microsoft-fabric-for-data-warehouses",
       "level-1",
-      "order:20",
+      "order:21",
       "module:get-started-copilot-fabric-data-warehouse"
     ],
     "content": {
@@ -5338,7 +5338,7 @@
       "implement-manage",
       "get-started-with-copilot-in-microsoft-fabric-for-data-warehouses",
       "level-1",
-      "order:20",
+      "order:21",
       "module:get-started-copilot-fabric-data-warehouse"
     ],
     "content": {
@@ -5364,7 +5364,7 @@
       "implement-manage",
       "get-started-with-copilot-in-microsoft-fabric-for-data-warehouses",
       "level-1",
-      "order:20",
+      "order:21",
       "module:get-started-copilot-fabric-data-warehouse"
     ],
     "content": {
@@ -5390,7 +5390,7 @@
       "implement-manage",
       "get-started-with-copilot-in-microsoft-fabric-for-data-warehouses",
       "level-1",
-      "order:20",
+      "order:21",
       "module:get-started-copilot-fabric-data-warehouse"
     ],
     "content": {
@@ -5416,7 +5416,7 @@
       "implement-manage",
       "get-started-with-copilot-in-microsoft-fabric-for-data-warehouses",
       "level-1",
-      "order:20",
+      "order:21",
       "module:get-started-copilot-fabric-data-warehouse"
     ],
     "content": {
@@ -5442,7 +5442,7 @@
       "implement-manage",
       "get-started-with-copilot-in-microsoft-fabric-for-data-warehouses",
       "level-1",
-      "order:20",
+      "order:21",
       "module:get-started-copilot-fabric-data-warehouse"
     ],
     "content": {
@@ -5468,7 +5468,7 @@
       "implement-manage",
       "get-started-with-copilot-in-microsoft-fabric-for-data-warehouses",
       "level-1",
-      "order:20",
+      "order:21",
       "module:get-started-copilot-fabric-data-warehouse"
     ],
     "content": {
@@ -5494,7 +5494,7 @@
       "implement-manage",
       "get-started-with-copilot-in-microsoft-fabric-for-data-warehouses",
       "level-1",
-      "order:20",
+      "order:21",
       "module:get-started-copilot-fabric-data-warehouse"
     ],
     "content": {
@@ -5520,7 +5520,7 @@
       "implement-manage",
       "get-started-with-copilot-in-microsoft-fabric-for-data-warehouses",
       "level-1",
-      "order:20",
+      "order:21",
       "module:get-started-copilot-fabric-data-warehouse"
     ],
     "content": {
@@ -5544,7 +5544,7 @@
       "implement-manage",
       "get-started-with-copilot-in-microsoft-fabric-for-data-warehouses",
       "level-1",
-      "order:20",
+      "order:21",
       "module:get-started-copilot-fabric-data-warehouse"
     ],
     "content": {
@@ -5568,7 +5568,7 @@
       "implement-manage",
       "get-started-with-copilot-in-microsoft-fabric-for-data-warehouses",
       "level-1",
-      "order:20",
+      "order:21",
       "module:get-started-copilot-fabric-data-warehouse"
     ],
     "content": {
@@ -5592,7 +5592,7 @@
       "implement-manage",
       "get-started-with-copilot-in-microsoft-fabric-for-data-warehouses",
       "level-1",
-      "order:20",
+      "order:21",
       "module:get-started-copilot-fabric-data-warehouse"
     ],
     "content": {
@@ -5616,7 +5616,7 @@
       "implement-manage",
       "get-started-with-copilot-in-microsoft-fabric-for-data-warehouses",
       "level-2",
-      "order:20",
+      "order:21",
       "module:get-started-copilot-fabric-data-warehouse"
     ],
     "content": {
@@ -5642,7 +5642,7 @@
       "implement-manage",
       "get-started-with-copilot-in-microsoft-fabric-for-data-warehouses",
       "level-2",
-      "order:20",
+      "order:21",
       "module:get-started-copilot-fabric-data-warehouse"
     ],
     "content": {
@@ -5668,7 +5668,7 @@
       "monitor-optimize",
       "monitor-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:21",
+      "order:22",
       "module:monitor-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -5696,7 +5696,7 @@
       "monitor-optimize",
       "monitor-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:21",
+      "order:22",
       "module:monitor-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -5724,7 +5724,7 @@
       "monitor-optimize",
       "monitor-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:21",
+      "order:22",
       "module:monitor-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -5752,7 +5752,7 @@
       "monitor-optimize",
       "monitor-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:21",
+      "order:22",
       "module:monitor-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -5780,7 +5780,7 @@
       "monitor-optimize",
       "monitor-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:21",
+      "order:22",
       "module:monitor-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -5808,7 +5808,7 @@
       "monitor-optimize",
       "monitor-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:21",
+      "order:22",
       "module:monitor-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -5836,7 +5836,7 @@
       "monitor-optimize",
       "monitor-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:21",
+      "order:22",
       "module:monitor-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -5864,7 +5864,7 @@
       "monitor-optimize",
       "monitor-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:21",
+      "order:22",
       "module:monitor-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -5892,7 +5892,7 @@
       "monitor-optimize",
       "monitor-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:21",
+      "order:22",
       "module:monitor-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -5920,7 +5920,7 @@
       "monitor-optimize",
       "monitor-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:21",
+      "order:22",
       "module:monitor-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -5948,7 +5948,7 @@
       "monitor-optimize",
       "monitor-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:21",
+      "order:22",
       "module:monitor-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -5974,7 +5974,7 @@
       "monitor-optimize",
       "monitor-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:21",
+      "order:22",
       "module:monitor-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -6000,7 +6000,7 @@
       "monitor-optimize",
       "monitor-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:21",
+      "order:22",
       "module:monitor-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -6026,7 +6026,7 @@
       "monitor-optimize",
       "monitor-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:21",
+      "order:22",
       "module:monitor-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -6052,7 +6052,7 @@
       "monitor-optimize",
       "monitor-a-microsoft-fabric-data-warehouse",
       "level-2",
-      "order:21",
+      "order:22",
       "module:monitor-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -6080,7 +6080,7 @@
       "monitor-optimize",
       "monitor-a-microsoft-fabric-data-warehouse",
       "level-2",
-      "order:21",
+      "order:22",
       "module:monitor-fabric-data-warehouse",
       "path:lp5",
       "primary-path:lp5"
@@ -6108,7 +6108,7 @@
       "implement-manage",
       "secure-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:22",
+      "order:23",
       "module:secure-data-warehouse-in-microsoft-fabric",
       "path:lp5",
       "primary-path:lp5"
@@ -6136,7 +6136,7 @@
       "implement-manage",
       "secure-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:22",
+      "order:23",
       "module:secure-data-warehouse-in-microsoft-fabric",
       "path:lp5",
       "primary-path:lp5"
@@ -6164,7 +6164,7 @@
       "implement-manage",
       "secure-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:22",
+      "order:23",
       "module:secure-data-warehouse-in-microsoft-fabric",
       "path:lp5",
       "primary-path:lp5"
@@ -6192,7 +6192,7 @@
       "implement-manage",
       "secure-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:22",
+      "order:23",
       "module:secure-data-warehouse-in-microsoft-fabric",
       "path:lp5",
       "primary-path:lp5"
@@ -6220,7 +6220,7 @@
       "implement-manage",
       "secure-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:22",
+      "order:23",
       "module:secure-data-warehouse-in-microsoft-fabric",
       "path:lp5",
       "primary-path:lp5"
@@ -6248,7 +6248,7 @@
       "implement-manage",
       "secure-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:22",
+      "order:23",
       "module:secure-data-warehouse-in-microsoft-fabric",
       "path:lp5",
       "primary-path:lp5"
@@ -6276,7 +6276,7 @@
       "implement-manage",
       "secure-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:22",
+      "order:23",
       "module:secure-data-warehouse-in-microsoft-fabric",
       "path:lp5",
       "primary-path:lp5"
@@ -6304,7 +6304,7 @@
       "implement-manage",
       "secure-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:22",
+      "order:23",
       "module:secure-data-warehouse-in-microsoft-fabric",
       "path:lp5",
       "primary-path:lp5"
@@ -6332,7 +6332,7 @@
       "implement-manage",
       "secure-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:22",
+      "order:23",
       "module:secure-data-warehouse-in-microsoft-fabric",
       "path:lp5",
       "primary-path:lp5"
@@ -6360,7 +6360,7 @@
       "implement-manage",
       "secure-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:22",
+      "order:23",
       "module:secure-data-warehouse-in-microsoft-fabric",
       "path:lp5",
       "primary-path:lp5"
@@ -6388,7 +6388,7 @@
       "implement-manage",
       "secure-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:22",
+      "order:23",
       "module:secure-data-warehouse-in-microsoft-fabric",
       "path:lp5",
       "primary-path:lp5"
@@ -6416,7 +6416,7 @@
       "implement-manage",
       "secure-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:22",
+      "order:23",
       "module:secure-data-warehouse-in-microsoft-fabric",
       "path:lp5",
       "primary-path:lp5"
@@ -6444,7 +6444,7 @@
       "implement-manage",
       "secure-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:22",
+      "order:23",
       "module:secure-data-warehouse-in-microsoft-fabric",
       "path:lp5",
       "primary-path:lp5"
@@ -6472,7 +6472,7 @@
       "implement-manage",
       "secure-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:22",
+      "order:23",
       "module:secure-data-warehouse-in-microsoft-fabric",
       "path:lp5",
       "primary-path:lp5"
@@ -6500,7 +6500,7 @@
       "implement-manage",
       "secure-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:22",
+      "order:23",
       "module:secure-data-warehouse-in-microsoft-fabric",
       "path:lp5",
       "primary-path:lp5"
@@ -6526,7 +6526,7 @@
       "implement-manage",
       "secure-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:22",
+      "order:23",
       "module:secure-data-warehouse-in-microsoft-fabric",
       "path:lp5",
       "primary-path:lp5"
@@ -6552,7 +6552,7 @@
       "implement-manage",
       "secure-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:22",
+      "order:23",
       "module:secure-data-warehouse-in-microsoft-fabric",
       "path:lp5",
       "primary-path:lp5"
@@ -6578,7 +6578,7 @@
       "implement-manage",
       "secure-a-microsoft-fabric-data-warehouse",
       "level-1",
-      "order:22",
+      "order:23",
       "module:secure-data-warehouse-in-microsoft-fabric",
       "path:lp5",
       "primary-path:lp5"
@@ -6604,7 +6604,7 @@
       "implement-manage",
       "secure-a-microsoft-fabric-data-warehouse",
       "level-2",
-      "order:22",
+      "order:23",
       "module:secure-data-warehouse-in-microsoft-fabric",
       "path:lp5",
       "primary-path:lp5"
@@ -6632,7 +6632,7 @@
       "implement-manage",
       "secure-a-microsoft-fabric-data-warehouse",
       "level-2",
-      "order:22",
+      "order:23",
       "module:secure-data-warehouse-in-microsoft-fabric",
       "path:lp5",
       "primary-path:lp5"
@@ -6650,6 +6650,558 @@
     }
   },
   {
+    "id": "0b2e1b84-6f3a-5984-8e1f-0c83abdb0f44",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "implement-continuous-integration-and-continuous-delivery-ci-cd-in-microsoft-fabric",
+      "level-1",
+      "order:24",
+      "module:implement-cicd-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "What is the primary goal of Continuous Integration (CI)?",
+      "options": {
+        "A": "To automatically release code to production without testing",
+        "B": "To frequently merge code into a shared branch with automated build/test validation, catching conflicts early",
+        "C": "To replace the need for version control",
+        "D": "To manually test code once per quarter"
+      },
+      "correct": "B",
+      "explanation": "CI is specifically about avoiding the long-isolated-branch problem — frequent small commits mean conflicts surface early, when they're easier and faster to fix."
+    }
+  },
+  {
+    "id": "3e92cba9-ca25-55b8-a06f-af745d3ce41b",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "implement-continuous-integration-and-continuous-delivery-ci-cd-in-microsoft-fabric",
+      "level-1",
+      "order:24",
+      "module:implement-cicd-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "What happens during Continuous Delivery, and when does it occur relative to CI?",
+      "options": {
+        "A": "It happens before CI; code is built and tested in isolation",
+        "B": "It happens after CI; code is deployed to a staging environment for further automated testing",
+        "C": "It replaces CI entirely",
+        "D": "It only applies to database projects"
+      },
+      "correct": "B",
+      "explanation": "CD is the next stage in the pipeline — once CI validates the merge, the code moves to staging for another round of automated testing before it's ready for production."
+    }
+  },
+  {
+    "id": "7df250d6-75ff-59ec-9ece-ef353cefb470",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "implement-continuous-integration-and-continuous-delivery-ci-cd-in-microsoft-fabric",
+      "level-1",
+      "order:24",
+      "module:implement-cicd-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "What distinguishes Continuous Deployment from Continuous Delivery?",
+      "options": {
+        "A": "Continuous Deployment requires manual approval at every stage",
+        "B": "Continuous Deployment automatically releases updates to production once they pass automated tests, without manual intervention",
+        "C": "Continuous Deployment only applies to Git, not deployment pipelines",
+        "D": "There is no difference between the two"
+      },
+      "correct": "B",
+      "explanation": "This is the fully automated end of the pipeline — updates flow through structured deployment stages and into production automatically once they clear testing, no human click required."
+    }
+  },
+  {
+    "id": "edf6c017-d695-5a93-92ee-0b7f1fd7fe52",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "implement-continuous-integration-and-continuous-delivery-ci-cd-in-microsoft-fabric",
+      "level-1",
+      "order:24",
+      "module:implement-cicd-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "In Fabric's CI/CD model, which capability specifically implements the \"integration\" part?",
+      "options": {
+        "A": "Deployment pipelines",
+        "B": "Git",
+        "C": "Fabric REST APIs",
+        "D": "Dataflow Gen2"
+      },
+      "correct": "B",
+      "explanation": "Git implements the integration half of CI/CD in Fabric — branching, committing, merging, and version history."
+    }
+  },
+  {
+    "id": "5663fe95-83fc-5f3d-af28-beac22c67367",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "implement-continuous-integration-and-continuous-delivery-ci-cd-in-microsoft-fabric",
+      "level-1",
+      "order:24",
+      "module:implement-cicd-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "In Fabric's CI/CD model, which capability specifically implements the \"deployment\" part?",
+      "options": {
+        "A": "Git",
+        "B": "Deployment pipelines",
+        "C": "Notebooks",
+        "D": "KQL Querysets"
+      },
+      "correct": "B",
+      "explanation": "These implement the deployment half — promoting content across development, test, and production environments."
+    }
+  },
+  {
+    "id": "4e070bd2-ca03-5183-b631-f27a66e38008",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "implement-continuous-integration-and-continuous-delivery-ci-cd-in-microsoft-fabric",
+      "level-1",
+      "order:24",
+      "module:implement-cicd-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "Which version control systems does Fabric support for Git integration?",
+      "options": {
+        "A": "Only GitHub",
+        "B": "Only Azure DevOps",
+        "C": "GitHub and Azure DevOps",
+        "D": "Any Git provider, with no restriction"
+      },
+      "correct": "C",
+      "explanation": "These are the two explicitly supported version control systems for Fabric's Git integration — no other Git providers are supported."
+    }
+  },
+  {
+    "id": "c5b78b79-6db4-5bca-bd84-bb1ba383743f",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "implement-continuous-integration-and-continuous-delivery-ci-cd-in-microsoft-fabric",
+      "level-1",
+      "order:24",
+      "module:implement-cicd-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "At what level in Fabric is Git integration configured?",
+      "options": {
+        "A": "Item level only",
+        "B": "Workspace level",
+        "C": "Tenant level only",
+        "D": "Capacity level"
+      },
+      "correct": "B",
+      "explanation": "Git integration connects at the workspace level, and you version the items you develop within that workspace."
+    }
+  },
+  {
+    "id": "92fc856e-6aa9-5646-ade3-233ef165c850",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "implement-continuous-integration-and-continuous-delivery-ci-cd-in-microsoft-fabric",
+      "level-1",
+      "order:24",
+      "module:implement-cicd-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "In the Fabric Source control window, which selection do you use to push your workspace changes into the connected Git branch?",
+      "options": {
+        "A": "Updates",
+        "B": "Changes",
+        "C": "Deploy",
+        "D": "Branch out"
+      },
+      "correct": "B",
+      "explanation": "This selection in the Source control window is how you push your workspace's uncommitted changes out to the connected Git branch."
+    }
+  },
+  {
+    "id": "faeee8f0-7110-5260-aa90-8c3f8c49a334",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "implement-continuous-integration-and-continuous-delivery-ci-cd-in-microsoft-fabric",
+      "level-1",
+      "order:24",
+      "module:implement-cicd-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "In the Fabric Source control window, which selection do you use to pull new commits from the Git branch into your workspace?",
+      "options": {
+        "A": "Changes",
+        "B": "Deploy",
+        "C": "Updates",
+        "D": "Merge queries"
+      },
+      "correct": "C",
+      "explanation": "This is the reverse direction — pulling new commits that have landed in the Git branch back into your workspace to keep it in sync."
+    }
+  },
+  {
+    "id": "22d226f2-d26b-529c-a763-4fa6cde716f5",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "implement-continuous-integration-and-continuous-delivery-ci-cd-in-microsoft-fabric",
+      "level-1",
+      "order:24",
+      "module:implement-cicd-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "Why is it recommended to develop in an isolated workspace rather than directly in a shared, live workspace?",
+      "options": {
+        "A": "Isolated workspaces are cheaper",
+        "B": "Direct changes in a shared workspace override and affect all other workspace users immediately",
+        "C": "Shared workspaces don't support Git integration at all",
+        "D": "Isolated workspaces automatically deploy to production"
+      },
+      "correct": "B",
+      "explanation": "Since a shared workspace holds live items, any change ripples out to everyone using it — isolating your development work avoids stepping on other developers' work in progress."
+    }
+  },
+  {
+    "id": "658a50e8-62a1-54f3-b540-b271ba3d38fa",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "implement-continuous-integration-and-continuous-delivery-ci-cd-in-microsoft-fabric",
+      "level-1",
+      "order:24",
+      "module:implement-cicd-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "What does \"Branch out to new workspace\" do?",
+      "options": {
+        "A": "Deletes the current branch",
+        "B": "Creates a new isolated branch and syncs a new workspace with it, giving you an isolated environment for development",
+        "C": "Merges all branches into main automatically",
+        "D": "Converts a workspace into a deployment pipeline"
+      },
+      "correct": "B",
+      "explanation": "This is the specific mechanism the module describes for spinning up an isolated dev environment directly from the Fabric web interface, without needing external tooling."
+    }
+  },
+  {
+    "id": "d4332420-b0fe-5a3b-9074-a5aa8f654bf0",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "implement-continuous-integration-and-continuous-delivery-ci-cd-in-microsoft-fabric",
+      "level-1",
+      "order:24",
+      "module:implement-cicd-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "Where is a Pull Request (PR) created to merge changes from an isolated branch into the main branch?",
+      "options": {
+        "A": "In the Fabric Source control window",
+        "B": "In Git (GitHub or Azure DevOps), not in Fabric directly",
+        "C": "In the deployment pipeline interface",
+        "D": "In the Fabric REST API console only"
+      },
+      "correct": "B",
+      "explanation": "PRs are a Git-native concept — you commit your changes to your isolated branch via Fabric's Source control panel, but the actual pull request to merge into main happens in the Git provider itself."
+    }
+  },
+  {
+    "id": "92b902fe-b735-576e-bf80-007db9989074",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "implement-continuous-integration-and-continuous-delivery-ci-cd-in-microsoft-fabric",
+      "level-1",
+      "order:24",
+      "module:implement-cicd-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "What happens when you select Deploy between two stages in a Fabric deployment pipeline?",
+      "options": {
+        "A": "Only new items are copied; existing items are left unchanged",
+        "B": "All workspace content from the source stage is copied into the target stage",
+        "C": "Only Git commits are synced, not actual Fabric items",
+        "D": "The source stage is deleted after deployment"
+      },
+      "correct": "B",
+      "explanation": "Deployment copies everything from the source stage's workspace into the target stage — it's a full content promotion, not a selective or partial copy."
+    }
+  },
+  {
+    "id": "24c749f9-7059-500c-acc5-119fae5a0a53",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "implement-continuous-integration-and-continuous-delivery-ci-cd-in-microsoft-fabric",
+      "level-1",
+      "order:24",
+      "module:implement-cicd-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "What is a common recommended approach to combining Git integration with deployment pipelines, to avoid sync conflicts?",
+      "options": {
+        "A": "Connect every stage's workspace (Dev, Test, and Production) to Git",
+        "B": "Connect only the Development workspace to Git; use deployment pipelines to promote content to Test and Production",
+        "C": "Never use Git and deployment pipelines together",
+        "D": "Connect only the Production workspace to Git"
+      },
+      "correct": "B",
+      "explanation": "This is the module's explicitly recommended approach — Git handles version control during development, while deployment pipelines handle promoting content onward, avoiding the sync conflicts that could arise from connecting every stage to Git independently."
+    }
+  },
+  {
+    "id": "ab0b90fc-818e-5a84-9c46-c6015953d0db",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "implement-continuous-integration-and-continuous-delivery-ci-cd-in-microsoft-fabric",
+      "level-1",
+      "order:24",
+      "module:implement-cicd-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "True or false? Fabric REST APIs can be used to commit workspace changes to a connected remote Git branch programmatically.",
+      "options": {
+        "A": "True",
+        "B": "False"
+      },
+      "correct": "A",
+      "explanation": "Fabric REST APIs let you commit workspace changes to the connected remote branch and update the workspace with new commits — the same actions the Source control window's Changes/Updates buttons perform, but programmatically."
+    }
+  },
+  {
+    "id": "4e33d431-9ed9-5571-ba79-49d3bcd5211b",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "implement-continuous-integration-and-continuous-delivery-ci-cd-in-microsoft-fabric",
+      "level-1",
+      "order:24",
+      "module:implement-cicd-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "True or false? The Git status API lets you see which items have incoming changes and which have uncommitted changes.",
+      "options": {
+        "A": "True",
+        "B": "False"
+      },
+      "correct": "A",
+      "explanation": "The Git status API specifically shows which items have incoming changes (from Git) and which have changes not yet committed (from the workspace) — the automated equivalent of the Git status column you'd see in the Fabric UI."
+    }
+  },
+  {
+    "id": "6115a665-95bc-57fa-8127-fc302dcffe2c",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "implement-continuous-integration-and-continuous-delivery-ci-cd-in-microsoft-fabric",
+      "level-1",
+      "order:24",
+      "module:implement-cicd-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "True or false? A deployment pipeline can only be created from the Workspaces icon in the left navigation pane — there is no other way to create one.",
+      "options": {
+        "A": "True",
+        "B": "False"
+      },
+      "correct": "B",
+      "explanation": "A deployment pipeline can be created two ways: via the Workspaces icon in the left navigation pane, or via the Create deployment pipeline icon at the top of a workspace — either path works."
+    }
+  },
+  {
+    "id": "03f7f18e-0eb9-58b1-adc9-e71a4af9a571",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "implement-continuous-integration-and-continuous-delivery-ci-cd-in-microsoft-fabric",
+      "level-1",
+      "order:24",
+      "module:implement-cicd-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "True or false? Deployment pipeline REST APIs can list the items in a specific stage and deploy content from one stage to another programmatically. ---",
+      "options": {
+        "A": "True",
+        "B": "False"
+      },
+      "correct": "A",
+      "explanation": "The module explicitly lists both capabilities among the deployment pipeline REST APIs: listing items in a specified stage, and deploying content from one stage to another — full programmatic control over the deployment process."
+    }
+  },
+  {
+    "id": "5330576c-95d5-5a68-a4e8-10200649cda0",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric",
+    "difficulty": 2,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "implement-continuous-integration-and-continuous-delivery-ci-cd-in-microsoft-fabric",
+      "level-2",
+      "order:24",
+      "module:implement-cicd-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "Two developers are both making changes to items in a shared Fabric workspace at the same time, and they keep unintentionally overwriting each other's work. What CI/CD practice should they adopt to resolve this?",
+      "options": {
+        "A": "Disable Git integration entirely",
+        "B": "Each developer should work in their own isolated workspace/branch, then use pull requests to merge changes into the main branch",
+        "C": "Only one developer should be allowed to use Fabric at a time",
+        "D": "Use deployment pipelines instead of Git for all development work"
+      },
+      "correct": "B",
+      "explanation": "This directly addresses the described problem: working in a shared live workspace causes changes to override each other, while isolated branches plus PRs let developers work independently and merge changes in a controlled, conflict-aware way."
+    }
+  },
+  {
+    "id": "fd46cf05-0ea4-5f48-9426-b266a5b2d080",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric",
+    "difficulty": 2,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "implement-continuous-integration-and-continuous-delivery-ci-cd-in-microsoft-fabric",
+      "level-2",
+      "order:24",
+      "module:implement-cicd-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "Your organization wants to automatically trigger a deployment of the latest Test-stage content into Production every night as part of a scheduled process, without anyone manually clicking Deploy. What should you use?",
+      "options": {
+        "A": "The Source control Changes panel",
+        "B": "Fabric REST APIs for deployment pipelines, called from an automated scheduled process",
+        "C": "Branch out to new workspace",
+        "D": "The Visual query editor"
+      },
+      "correct": "B",
+      "explanation": "This matches the described need precisely — a scheduled, unattended trigger for a deployment action, which requires programmatic automation rather than a manual UI click."
+    }
+  },
+  {
     "id": "d8d984f2-67ef-5e8f-bab1-766b185ea48b",
     "type": "mcq",
     "domain": "monitor-optimize",
@@ -6660,7 +7212,7 @@
       "monitor-optimize",
       "monitor-activities-in-microsoft-fabric",
       "level-1",
-      "order:24",
+      "order:25",
       "module:monitor-fabric-items",
       "path:lp6",
       "primary-path:lp6"
@@ -6688,7 +7240,7 @@
       "monitor-optimize",
       "monitor-activities-in-microsoft-fabric",
       "level-1",
-      "order:24",
+      "order:25",
       "module:monitor-fabric-items",
       "path:lp6",
       "primary-path:lp6"
@@ -6716,7 +7268,7 @@
       "monitor-optimize",
       "monitor-activities-in-microsoft-fabric",
       "level-1",
-      "order:24",
+      "order:25",
       "module:monitor-fabric-items",
       "path:lp6",
       "primary-path:lp6"
@@ -6744,7 +7296,7 @@
       "monitor-optimize",
       "monitor-activities-in-microsoft-fabric",
       "level-1",
-      "order:24",
+      "order:25",
       "module:monitor-fabric-items",
       "path:lp6",
       "primary-path:lp6"
@@ -6772,7 +7324,7 @@
       "monitor-optimize",
       "monitor-activities-in-microsoft-fabric",
       "level-1",
-      "order:24",
+      "order:25",
       "module:monitor-fabric-items",
       "path:lp6",
       "primary-path:lp6"
@@ -6800,7 +7352,7 @@
       "monitor-optimize",
       "monitor-activities-in-microsoft-fabric",
       "level-1",
-      "order:24",
+      "order:25",
       "module:monitor-fabric-items",
       "path:lp6",
       "primary-path:lp6"
@@ -6828,7 +7380,7 @@
       "monitor-optimize",
       "monitor-activities-in-microsoft-fabric",
       "level-1",
-      "order:24",
+      "order:25",
       "module:monitor-fabric-items",
       "path:lp6",
       "primary-path:lp6"
@@ -6856,7 +7408,7 @@
       "monitor-optimize",
       "monitor-activities-in-microsoft-fabric",
       "level-1",
-      "order:24",
+      "order:25",
       "module:monitor-fabric-items",
       "path:lp6",
       "primary-path:lp6"
@@ -6884,7 +7436,7 @@
       "monitor-optimize",
       "monitor-activities-in-microsoft-fabric",
       "level-1",
-      "order:24",
+      "order:25",
       "module:monitor-fabric-items",
       "path:lp6",
       "primary-path:lp6"
@@ -6912,7 +7464,7 @@
       "monitor-optimize",
       "monitor-activities-in-microsoft-fabric",
       "level-1",
-      "order:24",
+      "order:25",
       "module:monitor-fabric-items",
       "path:lp6",
       "primary-path:lp6"
@@ -6940,7 +7492,7 @@
       "monitor-optimize",
       "monitor-activities-in-microsoft-fabric",
       "level-1",
-      "order:24",
+      "order:25",
       "module:monitor-fabric-items",
       "path:lp6",
       "primary-path:lp6"
@@ -6968,7 +7520,7 @@
       "monitor-optimize",
       "monitor-activities-in-microsoft-fabric",
       "level-1",
-      "order:24",
+      "order:25",
       "module:monitor-fabric-items",
       "path:lp6",
       "primary-path:lp6"
@@ -6996,7 +7548,7 @@
       "monitor-optimize",
       "monitor-activities-in-microsoft-fabric",
       "level-1",
-      "order:24",
+      "order:25",
       "module:monitor-fabric-items",
       "path:lp6",
       "primary-path:lp6"
@@ -7024,7 +7576,7 @@
       "monitor-optimize",
       "monitor-activities-in-microsoft-fabric",
       "level-1",
-      "order:24",
+      "order:25",
       "module:monitor-fabric-items",
       "path:lp6",
       "primary-path:lp6"
@@ -7052,7 +7604,7 @@
       "monitor-optimize",
       "monitor-activities-in-microsoft-fabric",
       "level-1",
-      "order:24",
+      "order:25",
       "module:monitor-fabric-items",
       "path:lp6",
       "primary-path:lp6"
@@ -7078,7 +7630,7 @@
       "monitor-optimize",
       "monitor-activities-in-microsoft-fabric",
       "level-1",
-      "order:24",
+      "order:25",
       "module:monitor-fabric-items",
       "path:lp6",
       "primary-path:lp6"
@@ -7104,7 +7656,7 @@
       "monitor-optimize",
       "monitor-activities-in-microsoft-fabric",
       "level-1",
-      "order:24",
+      "order:25",
       "module:monitor-fabric-items",
       "path:lp6",
       "primary-path:lp6"
@@ -7130,7 +7682,7 @@
       "monitor-optimize",
       "monitor-activities-in-microsoft-fabric",
       "level-1",
-      "order:24",
+      "order:25",
       "module:monitor-fabric-items",
       "path:lp6",
       "primary-path:lp6"
@@ -7156,7 +7708,7 @@
       "monitor-optimize",
       "monitor-activities-in-microsoft-fabric",
       "level-2",
-      "order:24",
+      "order:25",
       "module:monitor-fabric-items",
       "path:lp6",
       "primary-path:lp6"
@@ -7184,7 +7736,7 @@
       "monitor-optimize",
       "monitor-activities-in-microsoft-fabric",
       "level-2",
-      "order:24",
+      "order:25",
       "module:monitor-fabric-items",
       "path:lp6",
       "primary-path:lp6"
@@ -7199,6 +7751,502 @@
       },
       "correct": "A",
       "explanation": "Duration drift on succeeded runs is exactly what the history view exposes, and it is already there for the last 30 days. Filtering to failures hides these runs entirely, and enabling workspace monitoring now collects nothing about the past."
+    }
+  },
+  {
+    "id": "c8a81c1b-874f-5321-bd7a-a75e3f38de5d",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Secure data access in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "secure-data-access-in-microsoft-fabric",
+      "level-1",
+      "order:26",
+      "module:secure-data-access-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "What is the correct order of Fabric's three levels of access evaluation?",
+      "options": {
+        "A": "Entra ID authentication → Fabric access → Data security",
+        "B": "Data security → Fabric access → Entra ID authentication",
+        "C": "Fabric access → Data security → Entra ID authentication",
+        "D": "Data security → Entra ID authentication → Fabric access"
+      },
+      "correct": "A",
+      "explanation": "Fabric evaluates access sequentially in this exact order: first, can the user authenticate at all; second, can they access Fabric; third, can they perform the requested action on a specific table or file."
+    }
+  },
+  {
+    "id": "760db2d0-8d8a-57bf-9425-558ade1fb8a5",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Secure data access in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "secure-data-access-in-microsoft-fabric",
+      "level-1",
+      "order:26",
+      "module:secure-data-access-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "Which of the following is NOT one of the four primary access controls within the \"Data security\" level?",
+      "options": {
+        "A": "Item permissions",
+        "B": "Network security groups",
+        "C": "OneLake security",
+        "D": "Workspace roles"
+      },
+      "correct": "B",
+      "explanation": "The four primary access controls within the Data security level are workspace roles, item permissions, compute/granular permissions, and OneLake security — network security groups aren't part of this model."
+    }
+  },
+  {
+    "id": "b8afc3bb-dcde-538b-be44-601670eeffc8",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Secure data access in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "secure-data-access-in-microsoft-fabric",
+      "level-1",
+      "order:26",
+      "module:secure-data-access-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "Which workspace role allows a user to create, view, and modify all content and data in a workspace, but NOT share it or manage permissions?",
+      "options": {
+        "A": "Admin",
+        "B": "Member",
+        "C": "Contributor",
+        "D": "Viewer"
+      },
+      "correct": "C",
+      "explanation": "Contributor can create, view, and modify all content and data in a workspace, but lacks the share and permission-management capabilities that Member and Admin have respectively."
+    }
+  },
+  {
+    "id": "9d8f0d5d-82a9-5983-9eb2-98d05099016e",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Secure data access in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "secure-data-access-in-microsoft-fabric",
+      "level-1",
+      "order:26",
+      "module:secure-data-access-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "Which workspace role can create, view, modify, and share all content/data, but cannot manage workspace permissions (that capability is Admin-only)?",
+      "options": {
+        "A": "Viewer",
+        "B": "Contributor",
+        "C": "Admin",
+        "D": "Member"
+      },
+      "correct": "D",
+      "explanation": "Member adds sharing on top of Contributor's capabilities (create/view/modify/share), but still can't manage workspace permissions — that's reserved for Admin."
+    }
+  },
+  {
+    "id": "4bca7fbd-24a0-5da8-ad05-4fca1eabee99",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Secure data access in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "secure-data-access-in-microsoft-fabric",
+      "level-1",
+      "order:26",
+      "module:secure-data-access-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "By default, what access do Viewers have to the underlying data stored in OneLake for items in their workspace?",
+      "options": {
+        "A": "None — unless granted via OneLake security roles",
+        "B": "Full read access",
+        "C": "Full read/write access",
+        "D": "Read access only to fact tables"
+      },
+      "correct": "A",
+      "explanation": "Viewers can see items listed in the workspace, but have zero access to the underlying OneLake data by default; OneLake security roles are specifically how you grant them access to particular tables or folders."
+    }
+  },
+  {
+    "id": "b0f58d82-261e-521d-a81c-68fdfc02e5a7",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Secure data access in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "secure-data-access-in-microsoft-fabric",
+      "level-1",
+      "order:26",
+      "module:secure-data-access-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "When you share a lakehouse via item permissions, what does the baseline \"Read\" permission (always granted) allow?",
+      "options": {
+        "A": "Full query access to the SQL analytics endpoint",
+        "B": "Viewing item metadata and associated reports only, not underlying data",
+        "C": "Read and write access to OneLake files",
+        "D": "Membership in the DefaultReader role"
+      },
+      "correct": "B",
+      "explanation": "This baseline Read permission is always granted when sharing an item, but it's deliberately limited — actual data access requires one of the additional permissions layered on top."
+    }
+  },
+  {
+    "id": "c5b1acd7-af8c-5482-97f9-e859a77902cc",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Secure data access in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "secure-data-access-in-microsoft-fabric",
+      "level-1",
+      "order:26",
+      "module:secure-data-access-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "Which additional lakehouse sharing permission grants access to lakehouse data through Apache Spark and OneLake APIs?",
+      "options": {
+        "A": "Read all SQL endpoint data",
+        "B": "Build reports on the default semantic model",
+        "C": "Read all Apache Spark and subscribe to events",
+        "D": "Manage OneLake security"
+      },
+      "correct": "C",
+      "explanation": "This is the specific additional permission for Spark and OneLake API access to lakehouse data, distinct from \"Read all SQL endpoint data\" (which covers T-SQL access instead)."
+    }
+  },
+  {
+    "id": "88e2976b-8074-50d2-b4dd-6de6d1fafceb",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Secure data access in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "secure-data-access-in-microsoft-fabric",
+      "level-1",
+      "order:26",
+      "module:secure-data-access-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "Granting \"Read all Apache Spark and subscribe to events\" automatically adds the recipient to which OneLake security role?",
+      "options": {
+        "A": "Admin",
+        "B": "Contributor",
+        "C": "Custom reader",
+        "D": "DefaultReader"
+      },
+      "correct": "D",
+      "explanation": "This is an important side effect worth remembering — granting Spark/OneLake API access via item permissions automatically enrolls the recipient in the lakehouse's DefaultReader OneLake security role, giving them full read access unless later restricted."
+    }
+  },
+  {
+    "id": "74a8c5b4-ecf2-56ce-be8d-b38a89629bc6",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Secure data access in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "secure-data-access-in-microsoft-fabric",
+      "level-1",
+      "order:26",
+      "module:secure-data-access-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "Which T-SQL DCL commands are used to apply granular permissions at the SQL analytics endpoint?",
+      "options": {
+        "A": "GRANT, DENY, REVOKE",
+        "B": "CREATE, ALTER, DROP",
+        "C": "SELECT, INSERT, UPDATE",
+        "D": "BEGIN, COMMIT, ROLLBACK"
+      },
+      "correct": "A",
+      "explanation": "These are the Data Control Language (DCL) commands used to apply granular permissions at the SQL analytics endpoint — the same mechanism you'd use for RLS, CLS, and dynamic data masking configuration."
+    }
+  },
+  {
+    "id": "2b3f829a-0f41-54e7-9e6a-76ea2c1249de",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Secure data access in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "secure-data-access-in-microsoft-fabric",
+      "level-1",
+      "order:26",
+      "module:secure-data-access-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "In OneLake security, what are the two permission levels a role can grant?",
+      "options": {
+        "A": "Admin and Viewer",
+        "B": "Read and ReadWrite",
+        "C": "Full and Partial",
+        "D": "Public and Private"
+      },
+      "correct": "B",
+      "explanation": "These are OneLake security's two permission levels: Read for viewing data, ReadWrite for viewing and editing specific tables or folders without needing a full workspace write role."
+    }
+  },
+  {
+    "id": "eb74cf22-3013-5f6b-8b0b-923090ac4e2e",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Secure data access in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "secure-data-access-in-microsoft-fabric",
+      "level-1",
+      "order:26",
+      "module:secure-data-access-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "Which workspace roles already have full read and write access to all OneLake data, regardless of any OneLake security roles configured?",
+      "options": {
+        "A": "Viewer only",
+        "B": "Only Admin",
+        "C": "Admin, Member, and Contributor",
+        "D": "Viewer and Contributor only"
+      },
+      "correct": "C",
+      "explanation": "These three roles already have full OneLake read/write access by virtue of their workspace role — OneLake security roles don't restrict them. OneLake security specifically exists to grant additional access to users who otherwise have none (Viewers, or users with only Read item permission)."
+    }
+  },
+  {
+    "id": "80648118-9c36-5833-b3f9-da09296fcf5d",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Secure data access in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "secure-data-access-in-microsoft-fabric",
+      "level-1",
+      "order:26",
+      "module:secure-data-access-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "Who is permitted to create or modify OneLake security roles?",
+      "options": {
+        "A": "Any user with Viewer access",
+        "B": "Anyone with Read item permission",
+        "C": "Only the Fabric tenant administrator",
+        "D": "Only workspace Admin and Member roles"
+      },
+      "correct": "D",
+      "explanation": "This is an explicit restriction — Contributors and Viewers cannot create or modify OneLake security roles, even though Contributors do have broader data access by virtue of their workspace role."
+    }
+  },
+  {
+    "id": "ef1f2b14-c8e1-5120-8742-7f54cce4e90e",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Secure data access in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "secure-data-access-in-microsoft-fabric",
+      "level-1",
+      "order:26",
+      "module:secure-data-access-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "True or false? Granting the \"Read all SQL endpoint data\" item permission restricts access to only specific tables within a lakehouse by default, rather than all data.",
+      "options": {
+        "A": "True",
+        "B": "False"
+      },
+      "correct": "B",
+      "explanation": "The opposite is true — both \"Read all SQL endpoint data\" and \"Read all Apache Spark and subscribe to events\" grant access to all data in the lakehouse by default. To restrict access to specific tables, you need T-SQL granular permissions (for SQL access) or OneLake security roles (for Spark/OneLake API access)."
+    }
+  },
+  {
+    "id": "f2499fff-3326-521c-8b80-5489c1b72a06",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Secure data access in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "secure-data-access-in-microsoft-fabric",
+      "level-1",
+      "order:26",
+      "module:secure-data-access-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "True or false? OneLake security role constraints can include row or column filters to restrict data further within a granted table or folder.",
+      "options": {
+        "A": "True",
+        "B": "False"
+      },
+      "correct": "A",
+      "explanation": "OneLake security role constraints are explicitly described as optional row or column filters applied to the data within the role — letting you narrow access even further than just which tables/folders are included."
+    }
+  },
+  {
+    "id": "0daef8b9-5b59-596f-9101-bee9b8d3700a",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Secure data access in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "secure-data-access-in-microsoft-fabric",
+      "level-1",
+      "order:26",
+      "module:secure-data-access-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "True or false? A user granted only the baseline \"Read\" item permission on a lakehouse automatically has full Spark access to all lakehouse tables.",
+      "options": {
+        "A": "True",
+        "B": "False"
+      },
+      "correct": "B",
+      "explanation": "The baseline Read permission only covers viewing item metadata and associated reports — it does not grant Spark data access. Spark access specifically requires the separate \"Read all Apache Spark and subscribe to events\" permission."
+    }
+  },
+  {
+    "id": "c2c9db13-2b50-5a97-b19b-22100662659b",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Secure data access in Microsoft Fabric",
+    "difficulty": 1,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "secure-data-access-in-microsoft-fabric",
+      "level-1",
+      "order:26",
+      "module:secure-data-access-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "True or false? If a user is restricted to a custom OneLake security role but not removed from the DefaultReader role, they will still retain full read access via DefaultReader. ---",
+      "options": {
+        "A": "True",
+        "B": "False"
+      },
+      "correct": "A",
+      "explanation": "This is explicitly called out as an important gotcha — DefaultReader membership persists independently, so restricting someone to a custom role without also removing them from DefaultReader leaves their original full read access intact through that default role."
+    }
+  },
+  {
+    "id": "6d21bc91-06de-53f4-8ecd-06a9d5aba51b",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Secure data access in Microsoft Fabric",
+    "difficulty": 2,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "secure-data-access-in-microsoft-fabric",
+      "level-2",
+      "order:26",
+      "module:secure-data-access-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "A new hire needs to collaborate broadly across many items in a workspace — creating, viewing, and modifying content — but should not be able to share items or manage other users' permissions. Which approach fits?",
+      "options": {
+        "A": "Grant item permissions on each item individually",
+        "B": "Assign the Contributor workspace role",
+        "C": "Assign the Admin workspace role",
+        "D": "Create a custom OneLake security role"
+      },
+      "correct": "B",
+      "explanation": "This matches the scenario precisely: broad create/view/modify access across the workspace, without the share or permission-management capabilities that Member or Admin would add — exactly the described need, and exactly the principle of least privilege in action."
+    }
+  },
+  {
+    "id": "6947c2dd-3457-556f-bfdc-b1f1b8067c4f",
+    "type": "mcq",
+    "domain": "implement-manage",
+    "topic": "Secure data access in Microsoft Fabric",
+    "difficulty": 2,
+    "source": "bank",
+    "tags": [
+      "implement-manage",
+      "secure-data-access-in-microsoft-fabric",
+      "level-2",
+      "order:26",
+      "module:secure-data-access-in-fabric",
+      "path:lp6",
+      "primary-path:lp6"
+    ],
+    "content": {
+      "question": "A Viewer-role user needs to query only two specific tables in a lakehouse containing sensitive patient data, and should not see any other tables. What is the most appropriate approach?",
+      "options": {
+        "A": "Upgrade the user to Contributor",
+        "B": "Grant \"Read all Apache Spark and subscribe to events\" item permission",
+        "C": "Create a OneLake security role scoped to those two tables and add the user as a member (removing them from DefaultReader if present)",
+        "D": "Share the lakehouse with \"Build reports on the default semantic model\" permission"
+      },
+      "correct": "C",
+      "explanation": "This is the only option that achieves table-level restriction for a Viewer — the other options either grant access to the whole lakehouse (B) or don't address data access at the table level at all (A, D)."
     }
   },
   {

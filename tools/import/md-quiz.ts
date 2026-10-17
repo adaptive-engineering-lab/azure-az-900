@@ -77,6 +77,15 @@ interface ModuleInfo {
    * tag, and the picker renders it without a path label.
    */
   primaryPath?: string;
+  /**
+   * The file stem question ids are hashed from — the one the module's rows
+   * were first seeded under, pinned so that renumbering or renaming its quiz
+   * file keeps every id. Without it a rename re-issues the module's ids, the
+   * upsert-only seed leaves the old rows live beside the new ones, and the
+   * only cleanup — deleting the old rows — cascades away learners' progress.
+   * Only the `order:` tag follows the current filename.
+   */
+  idStem: string;
 }
 
 const MODULES: Record<string, ModuleInfo> = {
@@ -84,99 +93,132 @@ const MODULES: Record<string, ModuleInfo> = {
     title: 'Ingest Data with Dataflows Gen2 in Microsoft Fabric',
     paths: ['lp2', 'lp3'],
     primaryPath: 'lp3',
+    idStem: '1-DP-700_Dataflows-Gen2_Quiz',
   },
   'use-data-factory-pipelines-fabric': {
     title: 'Orchestrate processes and data movement with Microsoft Fabric',
     paths: ['lp2', 'lp3'],
     primaryPath: 'lp3',
+    idStem: '2-DP-700_Orchestrate-Pipelines_Quiz',
   },
   'use-apache-spark-work-files-lakehouse': {
     title: 'Use Apache Spark in Microsoft Fabric',
     paths: ['lp2', 'lp3'],
     primaryPath: 'lp3',
+    idStem: '3-DP-700_Apache-Spark_Quiz',
   },
   'query-data-kql-database-microsoft-fabric': {
     title: 'Work with real-time data in an Eventhouse in Microsoft Fabric',
     paths: ['lp3', 'lp4'],
     primaryPath: 'lp3',
+    idStem: '4-DP-700_Eventhouse-KQL_Quiz',
   },
   'introduction-end-analytics-use-microsoft-fabric': {
     title: 'Introduction to end-to-end analytics using Microsoft Fabric',
     paths: ['lp1', 'lp2', 'lp5'],
     primaryPath: 'lp2',
+    idStem: '5-DP-700_Intro-End-to-End-Analytics_Quiz',
   },
   'get-started-lakehouses': {
     title: 'Get started with lakehouses in Microsoft Fabric',
     paths: ['lp1', 'lp2'],
     primaryPath: 'lp2',
+    idStem: '6-DP-700_Lakehouse-Basics_Quiz',
   },
   'work-delta-lake-tables-fabric': {
     title: 'Work with Delta Lake tables in Microsoft Fabric',
     paths: ['lp2'],
     primaryPath: 'lp2',
+    idStem: '8-DP-700_Delta-Lake-Tables_Quiz',
   },
   'describe-medallion-architecture': {
     title: 'Organize a Fabric lakehouse using medallion architecture design',
     paths: ['lp2'],
     primaryPath: 'lp2',
+    idStem: '11-DP-700_Medallion-Architecture_Quiz',
   },
   'get-started-kusto-fabric': {
     title: 'Get started with Real-Time Intelligence in Microsoft Fabric',
     paths: ['lp1', 'lp3', 'lp4'],
     primaryPath: 'lp4',
+    idStem: '12-DP-700_Real-Time-Intelligence_Quiz',
   },
   'explore-event-streams-microsoft-fabric': {
     title: 'Use real-time eventstreams in Microsoft Fabric',
     paths: ['lp3', 'lp4'],
     primaryPath: 'lp4',
+    idStem: '13-DP-700_Eventstream_Quiz',
   },
   'create-real-time-dashboards-microsoft-fabric': {
     title: 'Create Real-Time Dashboards with Microsoft Fabric',
     paths: ['lp4'],
     primaryPath: 'lp4',
+    idStem: '15-DP-700_Real-Time-Dashboards_Quiz',
   },
   // Activator is an RTI capability but Learn files it in none of lp1-lp4, so
   // it gets no path tags — see the primaryPath note on ModuleInfo.
   'use-fabric-activator': {
     title: 'Use Activator in Microsoft Fabric',
     paths: [],
+    idStem: '16-DP-700_Activator_Quiz',
   },
   'monitor-fabric-items': {
     title: 'Monitor activities in Microsoft Fabric',
     paths: ['lp6'],
     primaryPath: 'lp6',
+    idStem: '24-DP-700_Monitoring-Hub_Quiz',
   },
   'get-started-data-warehouse': {
     title: 'Get started with data warehouses in Microsoft Fabric',
     paths: ['lp1', 'lp5'],
     primaryPath: 'lp5',
+    idStem: '17-DP-700_Data-Warehouse-Basics_Quiz',
   },
   'load-data-into-microsoft-fabric-data-warehouse': {
     title: 'Load data into a Microsoft Fabric data warehouse',
     paths: ['lp5'],
     primaryPath: 'lp5',
+    idStem: '18-DP-700_Load-Data-Warehouse_Quiz',
   },
   'query-data-warehouse-microsoft-fabric': {
     title: 'Query a data warehouse in Microsoft Fabric',
     paths: ['lp5'],
     primaryPath: 'lp5',
+    idStem: '19-DP-700_Query-Data-Warehouse_Quiz',
   },
   'monitor-fabric-data-warehouse': {
     title: 'Monitor a Microsoft Fabric data warehouse',
     paths: ['lp5'],
     primaryPath: 'lp5',
+    idStem: '21-DP-700_Monitor-Data-Warehouse_Quiz',
   },
   // Also in "Administer and govern Microsoft Fabric", which is not one of ours.
   'secure-data-warehouse-in-microsoft-fabric': {
     title: 'Secure a Microsoft Fabric data warehouse',
     paths: ['lp5'],
     primaryPath: 'lp5',
+    idStem: '22-DP-700_Secure-Data-Warehouse_Quiz',
   },
   // Studied alongside the warehouse path but not a member of it, and not an
   // exam objective — so no path tags, like the other standalone modules.
   'get-started-copilot-fabric-data-warehouse': {
     title: 'Get started with Copilot in Microsoft Fabric for data warehouses',
     paths: [],
+    idStem: '20-DP-700_Copilot-Data-Warehouse_Quiz',
+  },
+  // Lifecycle, monitoring and security in "Manage a Microsoft Fabric
+  // environment"; monitor-fabric-items above is the third module of the path.
+  'implement-cicd-in-fabric': {
+    title: 'Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric',
+    paths: ['lp6'],
+    primaryPath: 'lp6',
+    idStem: '24-DP-700_CICD_Quiz',
+  },
+  'secure-data-access-in-fabric': {
+    title: 'Secure data access in Microsoft Fabric',
+    paths: ['lp6'],
+    primaryPath: 'lp6',
+    idStem: '26-DP-700_Secure-Data-Access_Quiz',
   },
 };
 
@@ -384,7 +426,7 @@ function buildItems(file: string, body: string): BankItem[] {
       continue;
     }
     const difficulty = DIFFICULTY_BY_SECTION[q.section];
-    const id = uuidv5(`${stem}#${q.number}`, NS);
+    const id = uuidv5(`${info?.idStem ?? stem}#${q.number}`, NS);
     const tags = [
       domain,
       slugify(topic),
@@ -474,6 +516,23 @@ function main(): void {
   for (const item of all) {
     if (seen.has(item.id)) warn(`duplicate id ${item.id} — check for repeated question numbers`);
     seen.add(item.id);
+  }
+
+  // Two modules pinned to one stem would hash onto each other's ids.
+  const pinned = new Map<string, string>();
+  for (const [slug, info] of Object.entries(MODULES)) {
+    const other = pinned.get(info.idStem);
+    if (other) warn(`modules "${other}" and "${slug}" share idStem "${info.idStem}"; their ids collide`);
+    pinned.set(info.idStem, slug);
+  }
+
+  // The same question twice in one module — usually a pasted repeat.
+  const prompts = new Map<string, string>();
+  for (const item of all) {
+    const key = `${item.topic}|${String(item.content.question).toLowerCase().replace(/[^a-z0-9]/g, '')}`;
+    const other = prompts.get(key);
+    if (other) warn(`"${item.topic}": items ${other} and ${item.id} ask the same question`);
+    prompts.set(key, item.id);
   }
 
   const trueFalse = all.filter((i) => Object.keys(i.content.options as object).length === 2).length;

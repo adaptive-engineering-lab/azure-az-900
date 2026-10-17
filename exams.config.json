@@ -102,7 +102,7 @@
           "id": "lp6",
           "title": "Manage a Microsoft Fabric environment",
           "url": "https://learn.microsoft.com/en-us/training/paths/manage-microsoft-fabric-environment/",
-          "moduleCount": 4,
+          "moduleCount": 3,
           "domains": ["monitor-optimize", "implement-manage"]
         }
       ],
