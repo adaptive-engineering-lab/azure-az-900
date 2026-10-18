@@ -1,39 +1,32 @@
 <!--
 SYNC IMPACT REPORT
 ==================
-Version change: 1.0.0 → 2.0.0
-Bump rationale: MAJOR. The "Technology & Platform Constraints" section
-previously listed Anthropic Claude (via /api/ai edge function) as a
-load-bearing runtime dependency, and Principle III governed runtime
-AI behavior. Both are now removed: AI is a maintainer-side authoring
-tool only. Removing a load-bearing stack item and redefining a
-principle in a backward-incompatible way is, per the governance
-policy, a MAJOR bump.
+Version change: 2.0.0 → 3.0.0
+Bump rationale: MAJOR. The repo was forked from the DP-700 app and
+re-targeted at AZ-900 (Microsoft Azure Fundamentals). Principle II's
+fixed domain set is replaced outright — a backward-incompatible
+redefinition — and code-review content is no longer in scope.
 
 Modified principles:
-- III. "AI as a Bounded, Cost-Aware Layer" → "AI as an Authoring Tool,
-  Not a Runtime Dependency"
-
-Other principles unchanged in title and intent.
+- I. Gesture list no longer names flashcards (removed in 2.x).
+- II. Domain set pinned to the three AZ-900 slugs; content types reduced
+  to MCQ (four-option and two-option true/false); code review off.
+- IV. Privileged calls go through Supabase Edge Functions (what ships),
+  not Vercel Edge Functions.
 
 Sections updated:
-- Technology & Platform Constraints: removed Vercel Edge Functions and
-  Anthropic Claude runtime entries; added explicit prohibition on
-  runtime AI calls.
-- Development Workflow & Quality Gates: telemetry list trimmed (no
-  AI call counts / cache hit rate to track).
+- Technology & Platform Constraints: components are hand-rolled (no
+  shadcn/ui), matching the shipped app and AZ900-Game-Spec.md §3.1.
 
-Templates: no template edits required. CLAUDE.md unchanged.
+Templates: no template edits required. CLAUDE.md updated to point at
+AZ900-Game-Spec.md and README.md instead of the DP-700 feature plan.
 
-Spec sync: DP700-Game-Spec.md updated in same change set
-(§3.2 backend table, §6.1/§6.2 AI Enhancement blocks, §7 rewritten as
-"AI-Assisted Content Authoring (Offline)", §13 Phase 3 repurposed).
-
-Deferred / TODOs: §15 open questions still being walked through
-interactively; will land in spec as decisions are made.
+Spec sync: AZ900-Game-Spec.md rewritten as 3.0 for AZ-900 in the same
+change set. Feature specs under specs/ are retained as DP-700-era build
+history; the product spec takes precedence where they disagree.
 -->
 
-# DP-700 Learning Game Constitution
+# AZ-900 Learning Game Constitution
 
 ## Core Principles
 
@@ -42,9 +35,9 @@ interactively; will land in spec as decisions are made.
 Every screen MUST be designed at 375px width first and scaled up; primary
 interactive controls MUST live within the bottom 60% of the viewport. Dark
 mode is the default theme. Streak, XP, and session progress MUST remain
-visible during any active session. Gestures (swipe left/right on flashcards,
-tap to flip, swipe up to advance) MUST have equivalent on-screen controls
-for accessibility and desktop use.
+visible during any active session. Gestures (tap to answer, swipe up to advance) MUST have equivalent
+on-screen controls and keyboard shortcuts for accessibility and desktop
+use.
 
 **Rationale**: The product's three personas all share short, on-the-go study
 sessions on phones. Designing for desktop first or hiding progress signals
@@ -52,10 +45,12 @@ breaks the habit-forming loop the product depends on.
 
 ### II. Domain-Aligned Content Integrity
 
-Every question, flashcard, and product-ID item MUST carry an explicit
-`domain`, `topic`, `difficulty`, and `source` field as defined in the spec's
-data model. The domain set is fixed to the three official DP-700 exam
-domains; new domains require a constitution amendment. AI-generated content
+Every question MUST carry an explicit `domain`, `topic`, `difficulty`, and
+`source` field as defined in the spec's data model. The domain set is fixed
+to the three official AZ-900 exam domains — `cloud-concepts`,
+`azure-architecture`, `azure-management` — and new domains require a
+constitution amendment. Questions are MCQs (four-option, or two-option
+true/false); code-review items are out of scope for AZ-900. AI-generated content
 MUST be tagged `source: "ai-generated"` and MUST NOT be promoted into the
 seeded bank without human review.
 
@@ -68,7 +63,7 @@ weak-area dashboard, and the level-progression gates.
 The production runtime MUST NOT make outbound calls to any AI provider.
 Claude is used **only** by the maintainer, offline, to draft and refine
 question-bank entries. All AI-authored items MUST be validated against
-the JSON schemas in DP700-Game-Spec.md §8, reviewed by a human, tagged
+the JSON schemas in AZ900-Game-Spec.md §8, reviewed by a human, tagged
 `source: "ai-generated"`, and committed to the seed bank before reaching
 users. Any future proposal to add a runtime AI feature ("Explain more",
 on-demand generation, weak-area summaries) requires an amendment of
@@ -85,7 +80,7 @@ bank is the single source of truth that learners study against.
 The Anthropic API key, any service-role Supabase keys, and any third-party
 credentials MUST NEVER appear in client bundles, repository files, or
 client-side environment variables. All privileged calls MUST go through
-Vercel Edge Functions. Supabase tables MUST have Row-Level Security
+Supabase Edge Functions. Supabase tables MUST have Row-Level Security
 enabled before exposure to the client; the `anon` key is the only
 Supabase credential permitted in the frontend.
 
@@ -98,7 +93,7 @@ performance data across accounts.
 Before any merge to `main` that touches user-facing code: Lighthouse
 mobile score MUST be ≥ 90 (Performance, Accessibility, Best Practices,
 SEO); the PWA manifest and offline shell MUST remain installable; and
-new question/flashcard content MUST validate against the JSON schemas
+new question content MUST validate against the JSON schemas
 in the spec's data model. Phase exit criteria (Phases 1–4 in the spec)
 are not advisory — a phase MAY NOT be declared complete while any
 checkbox in its scope remains unchecked.
@@ -112,8 +107,9 @@ honest as both humans and Claude contribute to it.
 The following stack choices are load-bearing and changing any of them
 requires a MAJOR version bump of this constitution:
 
-- **Frontend**: React 18 + Vite, Tailwind CSS, shadcn/ui, React Router v6,
-  Zustand for global state, Framer Motion for transitions.
+- **Frontend**: React 18 + Vite, Tailwind CSS with hand-rolled
+  components, React Router v6, Zustand for global state, Framer Motion for
+  transitions.
 - **Backend**: Supabase (Postgres + Auth + Storage) as the system of
   record. No serverless functions are required for v1; if one is added
   later it MUST be justified in the relevant plan's Complexity Tracking
@@ -129,7 +125,7 @@ requires a MAJOR version bump of this constitution:
 ## Development Workflow & Quality Gates
 
 - **Phased delivery**: Work proceeds in the four phases defined in
-  DP700-Game-Spec.md §13. A later phase MUST NOT consume scope from
+  AZ900-Game-Spec.md §13. A later phase MUST NOT consume scope from
   an earlier phase without rebaselining the spec.
 - **Specs precede code**: Every feature branch MUST originate from a
   spec under `specs/###-feature-name/` produced by `/speckit-specify`,
@@ -169,4 +165,4 @@ reviewer MUST approve the amendment in addition to any code review.
 feature against the Constitution Check gate using the principles
 above. Unjustified violations block plan acceptance.
 
-**Version**: 2.0.0 | **Ratified**: 2026-05-11 | **Last Amended**: 2026-05-11
+**Version**: 3.0.0 | **Ratified**: 2026-05-11 | **Last Amended**: 2026-10-18

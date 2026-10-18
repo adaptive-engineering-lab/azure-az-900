@@ -3,20 +3,20 @@
 **Feature Branch**: `006-code-review-mode`
 **Created**: 2026-05-16
 **Status**: Draft
-**Replaces**: `006-product-id-mode` (not applicable for DP-700 — insufficient product breadth)
+**Replaces**: `006-product-id-mode` (not applicable for AZ-900 — insufficient product breadth)
 
 ---
 
 ## Context
 
-DP-700 tests a learner's ability to *operate* a small set of tools deeply —
+AZ-900 tests a learner's ability to *operate* a small set of tools deeply —
 Azure Machine Learning, Microsoft Foundry, GitHub Actions, MLflow. The exam
 regularly surfaces YAML configuration, Python API calls, and CLI snippets as
 the basis for scenario questions. Code Review mode mirrors this: a learner
 sees a real-looking snippet and must identify what is wrong, missing, or
 correct — the same cognitive skill the exam tests.
 
-This mode replaces Product-ID for the DP-700 app. It is not being
+This mode replaces Product-ID for the AZ-900 app. It is not being
 backported to AZ-104.
 
 ---
@@ -229,7 +229,7 @@ The `content` JSONB column carries the code-review payload.
 ```json
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://dp700game.local/contracts/code-review.schema.json",
+  "$id": "https://az900game.local/contracts/code-review.schema.json",
   "title": "Code Review Item",
   "type": "object",
   "required": ["id", "type", "domain", "topic", "difficulty", "source", "content"],
@@ -302,7 +302,7 @@ The only schema change needed is adding `'code-review'` to the
 CONSTRAINT questions_type_chk
   CHECK (type IN ('flashcard', 'mcq', 'product-id')),
 
--- After (DP-700)
+-- After (AZ-900)
 CONSTRAINT questions_type_chk
   CHECK (type IN ('flashcard', 'mcq', 'code-review')),
 ```

@@ -1,6 +1,6 @@
 # Implementation Plan: Flashcard Mode
 
-**Status**: Retired — flashcard mode was removed on 2026-08-06. See `DP700-Game-Spec.md` §6.4 and migration `0015_drop_flashcards.sql`. Kept as the historical record of the rating model and session shape that quiz mode inherited.
+**Status**: Retired — flashcard mode was removed on 2026-08-06. See `AZ900-Game-Spec.md` §6.4 and migration `0015_drop_flashcards.sql`. Kept as the historical record of the rating model and session shape that quiz mode inherited.
 
 **Branch**: `004-flashcard-mode` | **Date**: 2026-05-16 | **Spec**: [spec.md](./spec.md)
 
@@ -13,7 +13,7 @@ Ship the static (no-AI) flashcard study mode at `/learn/flashcards`. A learner p
 **Language**: TypeScript 5.5 + React 18.3
 **New deps**: `framer-motion@^11` (flip animation), `react-swipeable@^7` (mobile gestures)
 **Env vars**: none new
-**Storage**: localStorage namespace `dp700game.v1.guest` for guests; Supabase tables `user_progress` / `sessions` for authenticated learners (FK to `auth.users`)
+**Storage**: localStorage namespace `az900game.v1.guest` for guests; Supabase tables `user_progress` / `sessions` for authenticated learners (FK to `auth.users`)
 **Testing**: vitest + jsdom for the session reducer, ordering, and SM-2-lite math; one Playwright smoke for the swipe → rate → results loop
 **Project**: extends `frontend/`; no new package
 
@@ -22,7 +22,7 @@ Ship the static (no-AI) flashcard study mode at `/learn/flashcards`. A learner p
 | Principle | Status | Notes |
 |---|---|---|
 | I. Mobile-First UX | Pass | Swipe gestures + on-screen buttons; rating controls in lower band; flip animation respects `prefers-reduced-motion`. |
-| II. Domain-Aligned Content | Pass | Topic picker derives from DP-700 domains via `exams.config.json`; "random mix" unions all three domains. |
+| II. Domain-Aligned Content | Pass | Topic picker derives from AZ-900 domains via `exams.config.json`; "random mix" unions all three domains. |
 | III. AI as Authoring Tool | Pass | No runtime AI call. Cards are read straight from the seeded bank. |
 | IV. Secrets Stay Server-Side | Pass | Uses the `anon` Supabase client only; the guest path touches no Supabase at all. |
 | V. Measurable Quality Gates | Pass | SC-005 budgets the route bundle (<100 KB gzipped delta); SC-006 requires Lighthouse a11y ≥ 90; SC-003 bounds flip animation under 400 ms. |

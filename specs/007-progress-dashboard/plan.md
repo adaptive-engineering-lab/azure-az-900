@@ -20,7 +20,7 @@ A read-only dashboard at `/progress` that summarizes the learner's study state: 
 | Principle | Status | Notes |
 |---|---|---|
 | I. Mobile-First UX | Pass | Single scrollable column on mobile; radar resizes; calendar rows wrap. |
-| II. Domain-Aligned Content | Pass | Five-axis radar mirrors DP-700 domains from `exams.config.json`. |
+| II. Domain-Aligned Content | Pass | Five-axis radar mirrors AZ-900 domains from `exams.config.json`. |
 | III. AI as Authoring Tool | Pass | No runtime AI. |
 | IV. Secrets Stay Server-Side | Pass | Anon client only. |
 | V. Measurable Quality Gates | Pass | SC-001 bounds render time; SC-006 requires Lighthouse a11y ≥ 90; radar uses shape+position cues (FR-016) not color alone. |
@@ -42,7 +42,7 @@ frontend/
     └── lib/
         ├── sessions/
         │   ├── store.ts                     # useSessionsStore() picks adapter
-        │   ├── guestStore.ts                # localStorage.dp700game.v1.guest.sessions
+        │   ├── guestStore.ts                # localStorage.az900game.v1.guest.sessions
         │   └── supabaseStore.ts             # select from sessions
         └── stats/
             ├── streak.ts                    # computeStreak(sessions, today) → { current, longest, activeDates }
