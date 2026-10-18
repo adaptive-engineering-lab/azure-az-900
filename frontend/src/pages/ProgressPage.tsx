@@ -4,7 +4,7 @@ import { useAppStore } from '../lib/store';
 import { ROUTES } from '../lib/routes';
 import { supabase } from '../lib/supabase';
 import type { Domain } from '../lib/questions/types';
-import { DOMAIN_LABELS } from '../lib/questions/types';
+import { DOMAINS, DOMAIN_LABELS } from '../lib/questions/types';
 import { computeDomainStats, computeActivityCalendar } from '../lib/dashboard/aggregate';
 import { RadarChart } from '../components/RadarChart';
 import { StreakCalendar } from '../components/StreakCalendar';
@@ -47,22 +47,24 @@ export default function ProgressPage() {
         </header>
 
         <div aria-hidden className="relative">
+          {/* Placeholders, not sample numbers — invented stats read as real ones. */}
           <div className="grid grid-cols-2 gap-2 opacity-40 sm:grid-cols-4">
-            <Tile label="Streak" value={3} suffix="d" />
-            <Tile label="XP" value={240} />
-            <Tile label="Level" value={2} />
-            <Tile label="Accuracy" value={78} suffix="%" />
+            <Tile label="Streak" value="—" />
+            <Tile label="XP" value="—" />
+            <Tile label="Level" value="—" />
+            <Tile label="Accuracy" value="—" />
           </div>
-          <div className="mt-4 rounded-lg bg-bg-elevated p-4 opacity-30">
+          <div className="mt-4 rounded-lg bg-bg-elevated p-4 opacity-40">
             <h2 className="text-sm font-semibold">By domain</h2>
-            <div className="mt-3 grid grid-cols-5 gap-1">
-              {[60, 80, 45, 90, 70].map((w, i) => (
-                <div key={i} className="h-2 rounded-full bg-divider">
-                  <div className="h-full rounded-full bg-accent" style={{ width: `${w}%` }} />
-                </div>
+            <ul className="mt-3 space-y-2">
+              {DOMAINS.map((d) => (
+                <li key={d}>
+                  <p className="text-xs text-fg-muted">{DOMAIN_LABELS[d]}</p>
+                  <div className="mt-1 h-2 rounded-full bg-divider" />
+                </li>
               ))}
-            </div>
-            <p className="mt-2 text-xs text-fg-muted">Preview — yours fills in as you answer.</p>
+            </ul>
+            <p className="mt-2 text-xs text-fg-muted">Fills in as you answer questions.</p>
           </div>
         </div>
 
@@ -168,7 +170,7 @@ function formatRelative(iso: string): string {
   return new Date(iso).toLocaleDateString();
 }
 
-function Tile({ label, value, suffix }: { label: string; value: number; suffix?: string }) {
+function Tile({ label, value, suffix }: { label: string; value: number | string; suffix?: string }) {
   return (
     <div className="rounded-lg bg-bg-elevated p-3 text-center">
       <p className="text-xs uppercase tracking-wider text-fg-muted">{label}</p>

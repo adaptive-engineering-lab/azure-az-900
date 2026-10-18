@@ -1,33 +1,37 @@
 /**
  * Import practice-quiz markdown from bank/knowledge/ into the seed bank.
  *
- * Source format (one file per Microsoft Learn module):
+ * Source format (one file per Microsoft Learn module, named
+ * `az900-m<NN>-<module-slug>-quiz.md`; NN is the study order):
  *
- *   # AZ-900 Practice Quiz — <module title>
- *   Source module: <learn.microsoft.com URL>
- *   AZ-900 domain: **<Domain>** — <hint>
+ *   # AZ-900 Module <N> Quiz: <module title>
+ *   **Exam domain:** Domain <N>: <domain name> (<weight>)
+ *   **Source module:** [<title>](<learn.microsoft.com URL>) (…)
  *
- *   ## Section A — Multiple Choice
- *   **1.** <question>
- *   A. <option>  B. <option>  C. <option>  D. <option>
+ *   ## Section A — Multiple choice
+ *   **A1.** <question>
+ *   - **A.** <option>
+ *   - **B.** <option>  …through D
  *
- *   ## Section B — True / False
- *   **11.** <statement> **(True/False)**
+ *   ## Section B — True or false
+ *   **B1.** <statement>
  *
- *   ## Section C — Scenario / Choose the Best Option
- *   (same shape as Section A)
+ *   ## Section C — Scenarios
+ *   (same shape as Section A, numbered C1…)
  *
- *   ## Answer Key & Rationale
- *   **1. B — <restated answer>.** <rationale>
- *   **15. C.** <rationale>                  ← letter only
- *   **11. False.** <rationale>              ← true/false
+ *   ## Answer key
+ *   **A1 — B.** *Concept: <label>*
+ *   <rationale>
+ *   Why not the others: A — … · C — … · D — …
+ *   **B1 — False.** *Concept: <label>*
+ *   <rationale>
  *
  * Every section becomes an `mcq` item. Section B's true/false statements use
  * a two-option MCQ (A = True, B = False) — the mcq schema requires only A and
  * B, so no filler distractors have to be invented.
  *
- * IDs are UUIDv5 over "<file stem>#<question number>", so re-running the
- * import is idempotent — the same question keeps the same id and the seed
+ * IDs are UUIDv5 over "<idStem>#<question key>" (e.g. "…#A1"), so re-running
+ * the import is idempotent — the same question keeps the same id and the seed
  * CLI's cross-bank duplicate check stays happy.
  *
  * Usage:
@@ -180,14 +184,15 @@ const LIMITS = {
 type Section = 'A' | 'B' | 'C';
 
 interface ParsedQuestion {
-  number: number;
+  /** Section letter plus number, e.g. "A1", "B6", "C2". */
+  key: string;
   section: Section;
   prompt: string;
   options?: Record<'A' | 'B' | 'C' | 'D', string>;
 }
 
 interface ParsedAnswer {
-  number: number;
+  key: string;
   /** 'A'–'D' for multiple choice, 'True'/'False' for section B. */
   verdict: string;
   explanation: string;
@@ -250,17 +255,17 @@ function capped(value: string, limit: number, label: string): string {
 }
 
 function parseDomain(body: string, file: string): Domain {
-  const line = body.match(/^AZ-900 domains?:.*$/m)?.[0];
+  const line = body.match(/^\*\*Exam domain:\*\*.*$/m)?.[0];
   if (!line) {
-    warn(`${file}: no "AZ-900 domain(s):" header line; defaulted to azure-architecture`);
+    warn(`${file}: no "**Exam domain:**" header line; defaulted to azure-architecture`);
     return 'azure-architecture';
   }
-  // Headers may list several domains; the first is the module's primary one.
-  const first = line.match(/\*\*(.+?)\*\*/)?.[1] ?? line;
-  for (const [re, domain] of DOMAIN_PROSE) if (re.test(first)) return domain;
-  warn(`${file}: unrecognised domain "${plain(first)}"; defaulted to azure-architecture`);
+  for (const [re, domain] of DOMAIN_PROSE) if (re.test(line)) return domain;
+  warn(`${file}: unrecognised domain "${plain(line)}"; defaulted to azure-architecture`);
   return 'azure-architecture';
 }
+
+const ANSWER_KEY_RE = /^## Answer key\b/im;
 
 function parseQuestions(body: string, file: string): ParsedQuestion[] {
   const out: ParsedQuestion[] = [];
@@ -270,21 +275,23 @@ function parseQuestions(body: string, file: string): ParsedQuestion[] {
   for (const [i, mark] of marks.entries()) {
     const section = mark[1] as Section;
     const start = mark.index! + mark[0].length;
-    const end = i + 1 < marks.length ? marks[i + 1]!.index! : (body.match(/^## Answer Key/m)?.index ?? body.length);
-    const chunk = body.slice(start, end);
+    const end = i + 1 < marks.length ? marks[i + 1]!.index! : (body.match(ANSWER_KEY_RE)?.index ?? body.length);
+    // The rule above "## Answer key" would otherwise trail the last prompt.
+    const chunk = body.slice(start, end).replace(/^---\s*$/gm, '');
 
-    // A question runs from its "**N.**" marker to the next one (or chunk end).
-    // `$(?![\s\S])` is end-of-input; plain `$` would match every line end
-    // under /m, and JS has no \Z.
-    const qRe = /^\*\*(\d+)\.\*\*\s*([\s\S]*?)(?=^\*\*\d+\.\*\*|$(?![\s\S]))/gm;
+    // A question runs from its "**A1.**" marker to the next one (or chunk
+    // end). `$(?![\s\S])` is end-of-input; plain `$` would match every line
+    // end under /m, and JS has no \Z.
+    const qRe = /^\*\*([ABC]\d+)\.\*\*\s*([\s\S]*?)(?=^\*\*[ABC]\d+\.\*\*|$(?![\s\S]))/gm;
     for (const m of chunk.matchAll(qRe)) {
-      const number = Number(m[1]);
+      const key = m[1]!;
       const raw = m[2]!.trim();
+      if (!key.startsWith(section)) warn(`${file} ${key}: numbered outside its section (${section})`);
       if (section === 'B') {
-        out.push({ number, section, prompt: plain(raw.replace(/\*\*\(True\/False\)\*\*/i, '')) });
+        out.push({ key, section, prompt: plain(raw) });
         continue;
       }
-      const optRe = /^([A-D])\.\s+(.+)$/gm;
+      const optRe = /^-\s*\*\*([A-D])\.\*\*\s+(.+)$/gm;
       const options = {} as Record<'A' | 'B' | 'C' | 'D', string>;
       let promptEnd = raw.length;
       for (const o of raw.matchAll(optRe)) {
@@ -293,34 +300,34 @@ function parseQuestions(body: string, file: string): ParsedQuestion[] {
       }
       const missing = (['A', 'B', 'C', 'D'] as const).filter((k) => !options[k]);
       if (missing.length > 0) {
-        warn(`${file} Q${number}: missing option(s) ${missing.join(', ')}; skipped`);
+        warn(`${file} ${key}: missing option(s) ${missing.join(', ')}; skipped`);
         continue;
       }
-      out.push({ number, section, prompt: plain(raw.slice(0, promptEnd)), options });
+      out.push({ key, section, prompt: plain(raw.slice(0, promptEnd)), options });
     }
   }
   return out;
 }
 
-function parseAnswers(body: string, file: string): Map<number, ParsedAnswer> {
-  const map = new Map<number, ParsedAnswer>();
-  const keyStart = body.match(/^## Answer Key.*$/m);
+function parseAnswers(body: string, file: string): Map<string, ParsedAnswer> {
+  const map = new Map<string, ParsedAnswer>();
+  const keyStart = body.match(ANSWER_KEY_RE);
   if (!keyStart) {
-    warn(`${file}: no "## Answer Key" section; every question in this file is unanswerable`);
+    warn(`${file}: no "## Answer key" section; every question in this file is unanswerable`);
     return map;
   }
   const chunk = body.slice(keyStart.index! + keyStart[0].length);
 
-  // Three observed shapes:
-  //   **1. B — restated answer.** rationale
-  //   **15. C.** rationale
-  //   **11. False.** rationale
+  //   **A1 — B.** *Concept: label*  rationale  Why not the others: …
+  //   **B1 — False.** *Concept: label*  rationale
+  // The concept label is dropped: the module title already frames the item,
+  // and the rationale restates the idea in full.
   const re =
-    /^\*\*(\d+)\.\s*(?:([A-D])(?:\s*[—–-]\s*[^*]*?)?|(True|False))\.?\*\*\s*([\s\S]*?)(?=^\*\*\d+\.|^---|$(?![\s\S]))/gm;
+    /^\*\*([ABC]\d+)\s*[—–-]\s*([A-D]|True|False)\.?\*\*\s*(?:\*Concept:[^*]*\*)?\s*([\s\S]*?)(?=^\*\*[ABC]\d+\s*[—–-]|^#{2,3}\s|^---|$(?![\s\S]))/gm;
   for (const m of chunk.matchAll(re)) {
-    const number = Number(m[1]);
-    const verdict = (m[2] ?? m[3])!;
-    map.set(number, { number, verdict, explanation: plain(m[4] ?? '') });
+    const key = m[1]!;
+    if (map.has(key)) warn(`${file} ${key}: answered twice; keeping the first`);
+    else map.set(key, { key, verdict: m[2]!, explanation: plain(m[3] ?? '') });
   }
   return map;
 }
@@ -329,10 +336,10 @@ function buildItems(file: string, body: string): BankItem[] {
   const stem = file.replace(/\.md$/, '');
   const domain = parseDomain(body, file);
   const headingTitle = plain(body.match(/^#\s+(.+)$/m)?.[1] ?? stem).replace(
-    /^AZ-900 Practice Quiz\s*[—–-]\s*/,
+    /^AZ-900 Module \d+ Quiz:\s*/,
     '',
   );
-  const sourceUrl = body.match(/^Source module:\s*(\S+)/m)?.[1];
+  const sourceUrl = body.match(/^\*\*Source module:\*\*.*?\((https:\/\/[^)\s]+)\)/m)?.[1];
 
   // The module is the unit of study, so it is the topic. Prefer the canonical
   // Learn title over the quiz heading, which is hand-typed and drifts.
@@ -344,12 +351,12 @@ function buildItems(file: string, body: string): BankItem[] {
     warn(`${file}: no parsable "Source module:" URL; using the quiz heading as topic`);
   }
   const topic = info?.title ?? headingTitle;
-  // The leading number in the filename is the order the modules are meant to
-  // be worked through, so carry it into the bank — it is not derivable from
+  // The "m<NN>" in the filename is the order the modules are meant to be
+  // worked through, so carry it into the bank — it is not derivable from
   // anything else once the file name is gone.
-  const orderPrefix = stem.match(/^(\d+)/)?.[1];
+  const orderPrefix = stem.match(/^az900-m(\d+)-/)?.[1];
   if (!orderPrefix) {
-    warn(`${file}: filename has no leading number; the module picker will fall back to alphabetical order`);
+    warn(`${file}: filename has no "az900-m<NN>-" prefix; the module picker will fall back to alphabetical order`);
   }
   const orderTag = orderPrefix ? `order:${Number(orderPrefix)}` : undefined;
   const pathTags = (info?.paths ?? []).map((p) => `path:${p}`);
@@ -361,13 +368,13 @@ function buildItems(file: string, body: string): BankItem[] {
   const items: BankItem[] = [];
 
   for (const q of questions) {
-    const a = answers.get(q.number);
+    const a = answers.get(q.key);
     if (!a) {
-      warn(`${file} Q${q.number}: no answer-key entry; skipped`);
+      warn(`${file} ${q.key}: no answer-key entry; skipped`);
       continue;
     }
     const difficulty = DIFFICULTY_BY_SECTION[q.section];
-    const id = uuidv5(`${info?.idStem ?? stem}#${q.number}`, NS);
+    const id = uuidv5(`${info?.idStem ?? stem}#${q.key}`, NS);
     const tags = [
       domain,
       slugify(topic),
@@ -379,11 +386,11 @@ function buildItems(file: string, body: string): BankItem[] {
     ];
     // Provenance is carried by `topic` and the module/path tags and rendered
     // by SourceLine, so the URL is not repeated inside the explanation.
-    const explanation = capped(a.explanation, LIMITS.explanation, `${file} Q${q.number} explanation`);
+    const explanation = capped(a.explanation, LIMITS.explanation, `${file} ${q.key} explanation`);
 
     if (q.section === 'B') {
       if (a.verdict !== 'True' && a.verdict !== 'False') {
-        warn(`${file} Q${q.number}: section B answer is "${a.verdict}", expected True/False; skipped`);
+        warn(`${file} ${q.key}: section B answer is "${a.verdict}", expected True/False; skipped`);
         continue;
       }
       items.push({
@@ -395,7 +402,7 @@ function buildItems(file: string, body: string): BankItem[] {
         source: 'bank',
         tags,
         content: {
-          question: capped(`True or false? ${q.prompt}`, LIMITS.mcqQuestion, `${file} Q${q.number} question`),
+          question: capped(`True or false? ${q.prompt}`, LIMITS.mcqQuestion, `${file} ${q.key} question`),
           options: { A: 'True', B: 'False' },
           correct: a.verdict === 'True' ? 'A' : 'B',
           explanation,
@@ -405,13 +412,13 @@ function buildItems(file: string, body: string): BankItem[] {
     }
 
     if (!/^[A-D]$/.test(a.verdict)) {
-      warn(`${file} Q${q.number}: answer "${a.verdict}" is not A–D; skipped`);
+      warn(`${file} ${q.key}: answer "${a.verdict}" is not A–D; skipped`);
       continue;
     }
     const options = Object.fromEntries(
       (['A', 'B', 'C', 'D'] as const).map((k) => [
         k,
-        capped(q.options![k], LIMITS.mcqOption, `${file} Q${q.number} option ${k}`),
+        capped(q.options![k], LIMITS.mcqOption, `${file} ${q.key} option ${k}`),
       ]),
     ) as Record<'A' | 'B' | 'C' | 'D', string>;
 
@@ -424,7 +431,7 @@ function buildItems(file: string, body: string): BankItem[] {
       source: 'bank',
       tags,
       content: {
-        question: capped(q.prompt, LIMITS.mcqQuestion, `${file} Q${q.number} question`),
+        question: capped(q.prompt, LIMITS.mcqQuestion, `${file} ${q.key} question`),
         options,
         correct: a.verdict,
         explanation,
